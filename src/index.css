@@ -1,0 +1,442 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../src/assets/fonts/Satoshi-Regular.woff2') format('woff2'),
+        url('../src/assets/fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../src/assets/fonts/Satoshi-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/Satoshi-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Target browser autofill specifically */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000000 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+  caret-color: #000000 !important;
+}
+
+/* Modal Sliding Animation */
+.modal.fade .modal-dialog {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+}
+
+.modal.show .modal-dialog {
+    transform: translateX(0);
+}
+
+.modal-dialog {
+    margin: 0;
+    height: 100%;
+}
+
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+}
+
+/* AG Grid Custom Theme */
+.custom-ag-theme.ag-theme-alpine {
+    font-family: 'Satoshi', sans-serif;
+    --ag-header-height: 80px;
+    --ag-header-foreground-color: #37474F;
+    --ag-header-background-color: white;
+    --ag-row-border-color: #e5e7eb;
+    --ag-cell-horizontal-padding: 16px;
+    --ag-selected-row-background-color: transparent;
+    --ag-font-family: 'Satoshi', sans-serif;
+    --ag-font-size: 14px;
+    --ag-grid-size: 6px;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-header {
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-header-cell {
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+    color: #37474F;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-row {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-row-even {
+    background-color: white;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-row-odd {
+    background-color: #f9fafb;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-row:hover {
+    background-color: #f3f4f6;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-cell {
+    /* padding: 12px 16px; */
+    font-family: 'Satoshi', sans-serif !important;
+    font-size: 14px;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-header-cell-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: #171717;
+    opacity: 0.6;
+    white-space: normal;
+    line-height: 1.2;
+}
+
+.custom-ag-theme.ag-theme-alpine {
+    --ag-row-border-color: transparent;
+    --ag-cell-horizontal-border: transparent;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-root {
+    z-index: 0;
+}
+
+.custom-ag-theme.ag-theme-alpine select option {
+    /* color: #286DB2; */
+    color: #4F46E5;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-paging-panel {
+    border-top: 1px solid #e5e7eb;
+    padding: 12px 16px;
+}
+
+/* Custom dropdown styles */
+.custom-dropdown {
+    /* border-color: #286DB2 !important; */
+    border-color: #4F46E5 !important;
+    color: #171717 !important;
+    background-color: white !important;
+    padding: 6px 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 120px !important;
+    gap: 8px !important;
+    overflow-y: auto;
+}
+
+.custom-dropdown::after {
+    position: static !important;
+    margin-left: 0 !important;
+    /* border-top-color: #286DB2 !important; */
+    border-top-color: #4F46E5 !important;
+}
+
+.custom-dropdown:hover {
+    background-color: white !important;
+    /* border-color: #286DB2 !important; */
+    border-color: #4F46E5 !important;
+    color: #171717 !important;
+}
+
+.custom-dropdown:hover::after {
+    /* border-top-color: #286DB2 !important; */
+    border-top-color: #4F46E5 !important;
+}
+
+
+/* Dropdown menu scroll styles */
+.custom-dropdown-menu {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.custom-dropdown-menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* Active and hover states for dropdown items */
+.dropdown-item.active,
+.dropdown-item:active {
+    /* background-color: #286DB2 !important; */
+    background-color: #4F46E5 !important;
+    color: white !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 0 !important;
+    vertical-align: middle !important;
+}
+
+.export-dropdown.dropdown-toggle::after {
+    display: none !important;
+  }
+
+.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+
+/* Planning Sheet specific AG Grid styles */
+.custom-ag-theme.ag-theme-alpine .ag-root-wrapper {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-header-cell {
+    font-weight: 500;
+}
+
+.custom-ag-theme.ag-theme-alpine .ag-cell-wrap-text {
+    word-break: break-word;
+}
+
+/* Styles for Production Shortage table */
+.predicted-shortage-table.ag-theme-alpine {
+    --ag-header-height: 40px;
+    --ag-row-height: 32px;
+    --ag-row-border-color: transparent;
+    --ag-cell-horizontal-padding: 8px;
+    --ag-selected-row-background-color: transparent;
+    --ag-font-family: 'Satoshi', sans-serif;
+    --ag-font-size: 14px;
+    max-height: 100%;
+  }
+  
+  .predicted-shortage-table.ag-theme-alpine .ag-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .predicted-shortage-table.ag-theme-alpine .ag-header-cell {
+    padding: 6px 16px; /* Increased padding for header cells */
+  }
+  
+  .predicted-shortage-table.ag-theme-alpine .ag-header-cell-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: #171717;
+    opacity: 0.6;
+  }
+  
+  .predicted-shortage-table.ag-theme-alpine .ag-root-wrapper,
+  .predicted-shortage-table.ag-theme-alpine .ag-root,
+  .predicted-shortage-table.ag-theme-alpine .ag-body-viewport {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .predicted-shortage-table.ag-theme-alpine .ag-row,
+  .predicted-shortage-table.ag-theme-alpine .ag-row-even,
+  .predicted-shortage-table.ag-theme-alpine .ag-row-odd {
+    background-color: transparent;
+    border-bottom: none;
+    height: 32px;
+  }
+  
+  .predicted-shortage-table.ag-theme-alpine .ag-row:hover {
+    background-color: rgba(243, 244, 246, 0.5);
+  }
+  
+  .predicted-shortage-table.ag-theme-alpine .ag-cell {
+    padding: 10px 16px;
+    line-height: 1.2;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 14px;
+  }
+
+  .ag-cell[col-id="Core_Operation"] {
+    white-space: normal !important;
+    line-height: 1.4em !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-height: 2.8em !important;
+  }
+
+
+/* Date Filter Button */
+.date-filter-btn {
+    border-color: #286DB2 !important;
+    color: #171717 !important;
+    background-color: white !important;
+    padding: 6px 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 140px !important;
+    gap: 8px !important;
+  }
+  
+  /* DatePicker Popper */
+  .date-filter-popper {
+    z-index: 10;
+    margin-top: 1px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+  }
+  
+  /* Remove triangle arrow */
+  .date-filter-popper .react-datepicker__triangle {
+    display: none !important;
+  }
+  
+  /* Core DatePicker styling */
+  .react-datepicker {
+    border: none !important;
+    background-color: white;
+  }
+  
+  .react-datepicker__header {
+    background-color: white !important;
+    border-bottom: 1px solid #f3f4f6 !important;
+    padding-top: 12px !important;
+  }
+  
+  /* Day Names and Days common properties */
+  .react-datepicker__day-name,
+  .react-datepicker__day {
+    margin: 3px !important;
+    width: 28px !important;
+    font-size: 14px !important;
+  }
+  
+  /* Day Names specific */
+  .react-datepicker__day-name {
+    color: #6c757d !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+  }
+  
+  /* Days specific */
+  .react-datepicker__day {
+    border-radius: 4px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    color: #212529 !important;
+  }
+  
+  /* Selected day */
+  .react-datepicker__day--selected {
+    background-color: #007bff !important;
+    color: white !important;
+  }
+  
+  /* Keyboard selected day */
+  .react-datepicker__day--keyboard-selected {
+    background-color: rgba(0, 123, 255, 0.1) !important;
+    color: #007bff !important;
+  }
+  
+  /* Days outside month */
+  .react-datepicker__day--outside-month {
+    color: #adb5bd !important;
+  }
+  
+  /* Today */
+  .react-datepicker__day--today {
+    font-weight: 600 !important;
+  }
+  
+  /* Month/Year Dropdowns */
+  .react-datepicker__month-select,
+  .react-datepicker__year-select {
+    padding: 2px 6px !important;
+    font-size: 14px !important;
+    border-radius: 4px !important;
+    border: 1px solid #ced4da !important;
+    background-color: white !important;
+    color: #212529 !important;
+    height: 30px !important;
+    margin: 0 2px !important;
+  }
+  
+  /* Month container */
+  .react-datepicker__month-container {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  
+  /* Clear button */
+  .react-datepicker__close-icon::after {
+    background-color: #adb5bd !important;
+    font-size: 10px !important;
+    width: 16px !important;
+    height: 16px !important;
+  }
+
+  /* Custom styling for disabled days */
+.disabled-day {
+  color: #ccc !important;
+  background-color: #f8f8f8 !important;
+  text-decoration: line-through !important;
+  cursor: not-allowed !important;
+}
+
+/* Override React-Datepicker's default disabled day styling */
+.react-datepicker__day--disabled {
+  color: #ccc !important;
+  background-color: #f8f8f8 !important;
+  text-decoration: line-through !important;
+  cursor: not-allowed !important;
+}
+
+/* Ensure disabled styling is maintained on hover */
+.react-datepicker__day--disabled:hover {
+  color: #ccc !important;
+  background-color: #f8f8f8 !important;
+}
+
+/* Absenteeism Chart Tooltip Styles */
+.chart-tooltip {
+  max-width: 600px !important;
+  width: 600px !important;
+  z-index: 9999;
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.chart-tooltip .popover-body {
+  padding: 0.5rem;
+}
+
+.chart-tooltip .popover-header {
+  background-color: #f8f9fa;
+  padding: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.chart-tooltip .popover-arrow {
+  display: none !important;
+}
