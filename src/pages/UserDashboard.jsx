@@ -11,13 +11,13 @@ import LoadingOverlay from '../components/shared/LoadingOverlay';
 import Footer from '../components/shared/Footer';
 
 import exportIcon from '../assets/Export.svg';
-import exportNew from '../assets/Export New.svg';
+import exportNew from '../assets/Export new.svg';
 import generateIcon from '../assets/Generate.svg';
-import generateNew from '../assets/Generate New.svg';
+import generateNew from '../assets/Generate new.svg';
 import plannedIcon from '../assets/Planned attendance.svg';
 import presentIcon from '../assets/Present.svg';
 import absentIcon from '../assets/Absent.svg';
-import allocatedIcon from '../assets/allocated.svg';
+import allocatedIcon from '../assets/Allocated.svg';
 import unallocatedIcon from '../assets/Unallocated_user.svg';
 import TargetIcon from '../assets/Target.svg';
 import TrendUp from '../assets/TrendUp.svg';

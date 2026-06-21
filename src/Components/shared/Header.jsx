@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import API from '../../api/api';
 import userIcon from '../../assets/user-circle.svg';
-import refreshNew from '../../assets/Refresh New.svg';
+import refreshNew from '../../assets/Refresh new.svg';
 import newDownloadIcon from '../../assets/DownloadIcon.svg';
 import notificationNew from '../../assets/Notification new.svg';
 import { useUser } from '../../context/UserContext';

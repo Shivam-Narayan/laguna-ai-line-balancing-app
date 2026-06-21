@@ -12,12 +12,12 @@ import PlanningWhite from '../../assets/Planning White.svg';
 import ForecastBlack from '../../assets/Forecast Black.svg';
 import ForecastWhite from '../../assets/Forecast White.svg';
 import OperatorsBlack from '../../assets/Operators Black.svg';
-import OperatorsWhite from '../../assets/Operators White.svg';
+import OperatorsWhite from '../../assets/Operators white.svg';
 import DdayNew from '../../assets/D_Day new.svg';
-import PlanningNew from '../../assets/Planning New.svg';
-import ForecastNew from '../../assets/Forecast New.svg';
-import OperatorsNew from '../../assets/Operators New.svg';
-import LogoutNew from '../../assets/Logout New.svg';
+import PlanningNew from '../../assets/Planning new.svg';
+import ForecastNew from '../../assets/Forecast new.svg';
+import OperatorsNew from '../../assets/Operators new.svg';
+import LogoutNew from '../../assets/Logout new.svg';
 import API from '../../api/api';
 
 const Sidenav = () => {
