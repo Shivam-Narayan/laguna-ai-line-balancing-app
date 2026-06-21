@@ -3,7 +3,7 @@ import axios from 'axios';
 // Base URL for the API
 // const API_BASE_URL = 'http://laguna.eastus.cloudapp.azure.com:8000'; // API base URL
 // const API_BASE_URL = 'https://yuktiapi.laguna-clothing.com/';
-const API_BASE_URL = 'http://172.16.0.135:8000/';
+const API_BASE_URL = 'http://localhost:8000/';
 // const API_BASE_URL = 'http://20.51.253.47:8000/';
 // const API_BASE_URL = 'http://10.81.234.4:8000/'
 

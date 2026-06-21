@@ -55,7 +55,7 @@ The built files will be located in the `dist` directory.
 
 ## Build and Version Management
 
-This project uses a custom build script (`build.sh`) to manage versioning and building Docker images for the web application.
+This project uses a custom build script (`build.bat`) to manage versioning and building Docker images for the web application.
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ This project uses a custom build script (`build.sh`) to manage versioning and bu
 To build the application with the current version (as specified in `package.json`):
 
 ```bash
-./build.sh
+build.bat
 ```
 
 ### Version Bumping
@@ -75,7 +75,7 @@ To build the application with the current version (as specified in `package.json
 To bump the version and build:
 
 ```bash
-./build.sh --bump [major|minor|patch]
+build.bat --bump [major|minor|patch]
 ```
 
 This will:
@@ -90,7 +90,7 @@ This will:
 To build using a specific version:
 
 ```bash
-./build.sh --version X.Y.Z
+build.bat --version X.Y.Z
 ```
 
 ### Platform-Specific Build
@@ -98,7 +98,7 @@ To build using a specific version:
 To build for AMD64 platform:
 
 ```bash
-./build.sh --amd
+build.bat --amd
 ```
 
 ### Combining Options
@@ -106,7 +106,7 @@ To build for AMD64 platform:
 You can combine options as needed. For example:
 
 ```bash
-./build.sh --bump minor --amd
+build.bat --bump minor --amd
 ```
 
 This will bump the minor version and build for AMD64 platform.
