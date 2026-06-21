@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useUser } from '../Context/UserContext';
+import { useUser } from '../context/UserContext';
 import { Toast } from 'react-bootstrap';
 
 const TermsAndConditions = () => {

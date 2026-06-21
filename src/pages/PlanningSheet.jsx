@@ -1,8 +1,8 @@
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
 import { Dropdown, Button, Spinner, Toast } from "react-bootstrap";
-import API from '../API/api';
+import API from '../api/api';
 import downloadIcon from '../assets/Download.svg';
 import MachinistIcon from '../assets/Machinist.svg';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -18,8 +18,8 @@ import {
     PlanningSheetPreferredEmployeesRenderer,
     PlanningSheetOperatorInfoRenderer,
     createPlanningSheetRowIdGenerator
-} from './PlanningSheetDragDrop';
-import Footer from '../Shared_Components/Footer';
+} from '../components/PlanningSheetDragDrop';
+import Footer from '../components/shared/Footer';
 
 import '../index.css'
 import { AgGridReact } from 'ag-grid-react';

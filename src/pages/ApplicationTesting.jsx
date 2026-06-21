@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
-import API from '../API/api';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
+import API from '../api/api';
 import { Form, Dropdown, Toast, Spinner, Button } from 'react-bootstrap';
-import Footer from '../Shared_Components/Footer';
+import Footer from '../components/shared/Footer';
 
 
 

@@ -439,7 +439,7 @@ import {
     useSensors,
     useSensor
 } from '@dnd-kit/core';
-import API from '../API/api';
+import API from '../api/api';
 
 // Create context
 const EmployeeDndContext = createContext();

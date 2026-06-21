@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Form, Button } from "react-bootstrap";
 import { IoMdEyeOff, IoMdEye } from "react-icons/io";
 import Success from '../assets/Success.svg'
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
-import API from '../API/api';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
+import API from '../api/api';
 
 const ChangePassword = () => {
     const [oldPassword, setOldPassword] = useState('');

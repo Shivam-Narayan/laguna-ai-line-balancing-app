@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
 import { FaPlus } from "react-icons/fa6";
 import { Table, Button, Form, Modal, Toast } from 'react-bootstrap';
 import { IoMdEyeOff, IoMdEye } from 'react-icons/io';
 import { IoClose } from "react-icons/io5";
-import API from '../API/api';
-import { useUser } from '../Context/UserContext';
+import API from '../api/api';
+import { useUser } from '../context/UserContext';
 
 import EditIcon from '../assets/edit.svg';
 import DeleteIcon from '../assets/delete.svg';

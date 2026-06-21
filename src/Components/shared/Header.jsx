@@ -1,14 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Logo from '../assets/Ascendum_logo.svg';
+import Logo from '../../assets/Ascendum_logo.svg';
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import API from '../API/api';
-import userIcon from '../assets/user-circle.svg';
-import refreshNew from '../assets/Refresh New.svg';
-import newDownloadIcon from '../assets/DownloadIcon.svg';
-import notificationNew from '../assets/Notification new.svg';
-import { useUser } from '../Context/UserContext';
+import API from '../../api/api';
+import userIcon from '../../assets/user-circle.svg';
+import refreshNew from '../../assets/Refresh New.svg';
+import newDownloadIcon from '../../assets/DownloadIcon.svg';
+import notificationNew from '../../assets/Notification new.svg';
+import { useUser } from '../../context/UserContext';
 
 const Header = () => {
     const { userName } = useUser();

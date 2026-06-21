@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Form, Button } from "react-bootstrap";
-import LoginHeader from '../Shared_Components/Login_Header';
-import LoginFooter from '../Shared_Components/Login_Footer';
+import LoginHeader from '../components/shared/LoginHeader';
+import LoginFooter from '../components/shared/LoginFooter';
 import { IoIosArrowRoundBack } from "react-icons/io";
 import Success from '../assets/Success.svg';
 import { useNavigate } from 'react-router-dom';
-import API from '../API/api';
+import API from '../api/api';
 import BGImage from '../assets/Login_BG.png';
 import formBG from '../assets/Form_BG.png';
 

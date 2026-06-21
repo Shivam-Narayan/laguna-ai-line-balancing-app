@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Button, Toast } from 'react-bootstrap';
-import EmailRecovery from './Email_Recovery';
-import LoginHeader from '../Shared_Components/Login_Header';
+import EmailRecovery from './EmailRecovery';
+import LoginHeader from '../components/shared/LoginHeader';
 import { IoMdEyeOff, IoMdEye } from 'react-icons/io';
-import LoginFooter from '../Shared_Components/Login_Footer';
+import LoginFooter from '../components/shared/LoginFooter';
 import { useNavigate } from 'react-router-dom';
-import API from '../API/api';
-import { useUser } from '../Context/UserContext';
+import API from '../api/api';
+import { useUser } from '../context/UserContext';
 import BGImage from '../assets/Login_BG.png';
 import formBG from '../assets/Form_BG.png';
 

@@ -1,16 +1,16 @@
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import LoginPage from '../Components/Login';
-import EmailRecovery from '../Components/Email_Recovery';
-import ForgotPassword from '../Components/Forgot_Password';
-import TermsAndConditions from '../Components/TermsAndConditions';
-import AdminDashboard from '../Components/Admin_Dashboard';
-import UserDashboard from '../Components/User_Dashboard';
-import ChangePassword from '../Components/Change_Password';
-import Forecast from '../Components/forecast';
-import Planning from '../Components/Planning';
-import Operators from '../Components/Operators';
-import PlanningSheet from '../Components/Planning_Sheet';
-import ApplicationTesting from '../Components/Application_Testing';
+import LoginPage from '../pages/Login';
+import EmailRecovery from '../pages/EmailRecovery';
+import ForgotPassword from '../pages/ForgotPassword';
+import TermsAndConditions from '../pages/TermsAndConditions';
+import AdminDashboard from '../pages/AdminDashboard';
+import UserDashboard from '../pages/UserDashboard';
+import ChangePassword from '../pages/ChangePassword';
+import Forecast from '../pages/Forecast';
+import Planning from '../pages/Planning';
+import Operators from '../pages/Operators';
+import PlanningSheet from '../pages/PlanningSheet';
+import ApplicationTesting from '../pages/ApplicationTesting';
 
 const AppRoutes = () => {
 

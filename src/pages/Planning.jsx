@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
 import { Dropdown, Button, Spinner, Toast, Modal, Form } from "react-bootstrap";
-import API from '../API/api';
+import API from '../api/api';
 import { Tooltip } from "react-tooltip"; ''
-import LoadingOverlay from '../Shared_Components/LoadingOverlay';
-import Footer from '../Shared_Components/Footer';
+import LoadingOverlay from '../components/shared/LoadingOverlay';
+import Footer from '../components/shared/Footer';
 import newDownloadIcon from '../assets/DownloadIcon.svg';
 import newUploadIcon from '../assets/new_Upload.svg';
 import newManningSheet from '../assets/New_Manning_Preview.svg';

@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import loadingAnimation from '../assets/animation/Animation - 1737702415499.json'; // Adjust this path
+import loadingAnimation from '../../assets/animation/Animation - 1737702415499.json'; // Adjust this path
 
 const LoadingOverlay = ({ title = "Loading...", message = "Please wait" }) => {
     return (

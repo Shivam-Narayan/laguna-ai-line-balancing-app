@@ -1,14 +1,14 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
 import { Toast, Button, Spinner, Dropdown, Form } from "react-bootstrap";
-import { useUser } from '../Context/UserContext';
-import API from '../API/api';
+import { useUser } from '../context/UserContext';
+import API from '../api/api';
 import { IoClose } from "react-icons/io5";
 import { FaCirclePlus } from "react-icons/fa6";
 import { FaCircleMinus } from "react-icons/fa6";
-import LoadingOverlay from '../Shared_Components/LoadingOverlay';
-import Footer from '../Shared_Components/Footer';
+import LoadingOverlay from '../components/shared/LoadingOverlay';
+import Footer from '../components/shared/Footer';
 
 import exportIcon from '../assets/Export.svg';
 import exportNew from '../assets/Export New.svg';
@@ -40,7 +40,7 @@ import {
     DndProvider,
     PreferredEmployeesRenderer,
     FinalAllocationRenderer
-} from './DragDropEmployees';
+} from '../components/DragDropEmployees';
 
 
 // Register required modules

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Header from '../Shared_Components/Header';
-import Sidenav from '../Shared_Components/Sidenav';
+import Header from '../components/shared/Header';
+import Sidenav from '../components/shared/Sidenav';
 import { Form, Dropdown, Button, Toast, Overlay, Popover } from "react-bootstrap";
 import { IoClose } from "react-icons/io5";
 import exportIcon from '../assets/Export.svg';
@@ -11,11 +11,11 @@ import MailIcon from '../assets/mail.svg';
 import ListIcon from '../assets/list.svg';
 import arrowIcon from '../assets/Arrow.svg'
 import { AgCharts } from 'ag-charts-react';
-import API from '../API/api';
-import LoadingOverlay from '../Shared_Components/LoadingOverlay';
-import { useUser } from '../Context/UserContext';
+import API from '../api/api';
+import LoadingOverlay from '../components/shared/LoadingOverlay';
+import { useUser } from '../context/UserContext';
 import JSZip from 'jszip';
-import Footer from '../Shared_Components/Footer';
+import Footer from '../components/shared/Footer';
 
 
 import '../index.css'
