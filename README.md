@@ -29,22 +29,39 @@ src/
 
 ## Getting Started
 
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+> [!IMPORTANT]
+> **Docker Integration:** This frontend application is fully integrated into the main backend ecosystem. You do **not** need to build or run this container manually. It is automatically managed by the main `docker-compose.yml` file located in the `laguna-ai-line-balancing` (backend) directory.
 
-### Installation
+### Running via Docker (Recommended)
 
-1. Clone the repository and navigate into the project directory.
-2. Install the dependencies:
+To start the entire application stack (Frontend, Backend, DB, Redis):
+```bash
+# From the backend root directory
+cd ../laguna-ai-line-balancing
+scripts\start.bat --dev
+```
+
+To stop only the frontend container while keeping the backend alive:
+```bash
+docker compose stop app
+```
+*(To start it back up: `docker compose start app`)*
+
+---
+
+### Local Development Server (Without Docker)
+
+If you need to run the React app locally for development (e.g., to use Hot Module Replacement):
+
+1. Install the dependencies:
    ```bash
    npm install
    ```
 
-### Development Server
-Run the local development server:
-```bash
-npm run dev
-```
+2. Run the local development server:
+   ```bash
+   npm run dev
+   ```
 
 ### Production Build
 Create an optimized production build:
