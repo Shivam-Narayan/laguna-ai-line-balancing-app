@@ -20,7 +20,7 @@ apiClient.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('authToken');
 
-    if (token && !config.url.includes('/login/')) {
+    if (token && !config.url.includes('/auth/login/')) {
       config.headers.Authorization = `Token ${token}`;
     }
 
@@ -35,35 +35,35 @@ apiClient.interceptors.request.use(
 
 // API Endpoints
 const API = {
-  login: (data) => apiClient.post('/login/', data),
-  validateLocation: (formData) => apiClient.post('/location-validator/', formData, {
+  login: (data) => apiClient.post('/auth/login/', data),
+  validateLocation: (formData) => apiClient.post('/locations/validate/', formData, {
     headers: {
       'Content-Type': 'multipart/form-data'
     }
   }),
-  logout: (data) => apiClient.post('/logout/', data),
-  emailRecovery: (data) => apiClient.post('/request-reset-password/', data),
-  forgotPassword: (data) => apiClient.post('/reset-password/', data),
-  changePassword: (data) => apiClient.post('/change-password/', data),
-  getUsers: () => apiClient.get('/user-management/users/'),
-  createUser: (data) => apiClient.post('/user-management/create/', data),
-  getUserDetails: (userId) => apiClient.get(`/user-management/users/${userId}/`),
-  updateUser: (userId, data) => apiClient.put(`/user-management/users/update/${userId}/`, data),
-  deleteUser: (userId) => apiClient.delete(`/user-management/users/delete/${userId}/`),
-  uploadHolidayCalendar: (formData) => apiClient.post('/data/add_local_holiday_calender/', formData, {
+  logout: (data) => apiClient.post('/auth/logout/', data),
+  emailRecovery: (data) => apiClient.post('/auth/password/reset/request/', data),
+  forgotPassword: (data) => apiClient.post('/auth/password/reset/confirm/', data),
+  changePassword: (data) => apiClient.post('/auth/password/change/', data),
+  getUsers: () => apiClient.get('/users/'),
+  createUser: (data) => apiClient.post('/users/create/', data),
+  getUserDetails: (userId) => apiClient.get(`/users/${userId}/`),
+  updateUser: (userId, data) => apiClient.put(`/users/${userId}/update/`, data),
+  deleteUser: (userId) => apiClient.delete(`/users/${userId}/delete/`),
+  uploadHolidayCalendar: (formData) => apiClient.post('/data/holiday-calendars/upload/', formData, {
     headers: {
       'Content-Type': undefined
     }
   }),
   getAbsenteeismData: (line, forecast_period) =>
-    apiClient.get('/absenteeism/absenteeism_prediction_data/', {
+    apiClient.get('/absenteeism/predictions/', {
       params: {
         line,
         forecast_period
       }
     }),
     getForecastData: () =>
-    apiClient.post('/absenteeism/absenteeism_prediction/', {
+    apiClient.post('/absenteeism/predictions/generate/', {
       
     }),
 
@@ -82,7 +82,7 @@ const API = {
       params.email = email;
     }
 
-    return apiClient.post('/absenteeism/absenteeism_prediction_data/', null, {
+    return apiClient.post('/absenteeism/predictions/', null, {
       params,
       responseType: type === 'excel' ? 'blob' : 'json',
       headers: {
@@ -92,7 +92,7 @@ const API = {
   },
 
   getOperatorsData: (line) =>
-    apiClient.get('/data/operators-data/', {
+    apiClient.get('/data/operators/', {
       params: {
         line
       }
@@ -101,7 +101,7 @@ const API = {
   exportOperatorsData: (line) => {
     const formattedLine = line === 'All' ? 'All' : line;
 
-    return apiClient.get('/data/export-operators-data/', {
+    return apiClient.get('/data/operators/export/csv/', {
       params: { line: formattedLine },
       responseType: 'blob',
       headers: {
@@ -112,7 +112,7 @@ const API = {
   exportOperatorsDataEmail: (line, email) => {
     const formattedLine = line === 'All' ? 'All' : line;
 
-    return apiClient.get('/data/export-operators-data-email/', {
+    return apiClient.get('/data/operators/export/email/', {
       params: {
         line: formattedLine,
         email: email
@@ -120,7 +120,7 @@ const API = {
     });
   },
   getManningSheet: (line, section, forecast_period, style, planned_date) =>
-    apiClient.get('/manning-sheet/get_manning_data/', {
+    apiClient.get('/manning-sheet/manning-sheets/', {
       params: {
         line,
         section,
@@ -131,21 +131,21 @@ const API = {
 
     }),
   uploadLoadingPlan: (formData) => {
-    return apiClient.post('/manning-sheet/uploading_loading_data/', formData, {
+    return apiClient.post('/manning-sheet/loading-plans/upload/', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       }
     })
   },
   uploadWipData: (formData) => {
-    return apiClient.post('/manning-sheet/upload_wip_data', formData, {
+    return apiClient.post('/manning-sheet/wips/upload/', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       }
     })
   },
   downloadManningSheet: (line, forecast_period) =>
-    apiClient.post('/manning-sheet/download_manning_data_by_section/', null, {
+    apiClient.post('/manning-sheet/manning-sheets/export/', null, {
       params: {
         line,
         forecast_period
@@ -156,7 +156,7 @@ const API = {
       }
     }),
   downloadSectionManningSheet: (line, section, forecast_period, style, planned_date) =>
-    apiClient.post('/manning-sheet/get_manning_data/', null, {
+    apiClient.post('/manning-sheet/manning-sheets/export/', null, {
       params: {
         line,
         section,
@@ -170,7 +170,7 @@ const API = {
       }
     }),
   downloadUnallocatedEmployees: (line, forecast_period) =>
-    apiClient.post('/manning-sheet/get_unallocated_employees', null, {
+    apiClient.post('/manning-sheet/employees/unallocated/', null, {
       params: {
         line,
         forecast_period
@@ -181,31 +181,31 @@ const API = {
       }
     }),
   generateManningSheet: () =>
-    apiClient.post('/manning-sheet/generate_manning_sheet/', null, {
+    apiClient.post('/manning-sheet/manning-sheets/generate/', null, {
       headers: {
         'Accept': 'application/json'
       }
     }),
   getDdayManningData: (line) =>
-    apiClient.get('/manning-sheet/get_dday_manning_data/', {
+    apiClient.get('/manning-sheet/manning-sheets/d-day/', {
       params: {
         line
       }
     }),
   getDdayAttendanceData: (line) =>
-    apiClient.get('/manning-sheet/get_attendance_data/', {
+    apiClient.get('/manning-sheet/attendance/', {
       params: {
         line
       }
     }),
   generateDdayManningSheet: () =>
-    apiClient.post('/manning-sheet/generate_dday_manning_sheet/', null, {
+    apiClient.post('/manning-sheet/manning-sheets/d-day/generate/', null, {
       headers: {
         'Accept': 'application/json'
       }
     }),
   updateAllocatedEmployees: (ddayId, finalAllocation) =>
-    apiClient.post('/manning-sheet/update_allocated_employees', {
+    apiClient.post('/manning-sheet/employees/allocated/', {
       dday_id: ddayId,
       final_allocation: finalAllocation
     }, {
@@ -214,7 +214,7 @@ const API = {
       }
     }),
   updateEmployeeOnHold: (payload) =>
-    apiClient.post('/manning-sheet/update_employee_on_hold', payload, {
+    apiClient.post('/manning-sheet/employees/on-hold/', payload, {
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
@@ -235,7 +235,7 @@ const API = {
       }
     }
 
-    return apiClient.post('manning-sheet/download_manning_attendance_data/', null, {
+    return apiClient.post('manning-sheet/attendance/export/', null, {
       params,
       responseType: 'blob',
       headers: {
@@ -244,7 +244,7 @@ const API = {
     });
   },
   downloadDdayUnallocatedEmployees: (line) =>
-    apiClient.post('/manning-sheet/get_unallocated_employees_dday', null, {
+    apiClient.post('/manning-sheet/employees/unallocated/d-day/', null, {
       params: {
         line
       },
@@ -255,7 +255,7 @@ const API = {
     }),
 
   getAbsenteeismForecastGraph: (line, forecast_period) =>
-    apiClient.get('/absenteeism/get_absenteeism_forecast/', {
+    apiClient.get('/absenteeism/forecasts/', {
       params: {
         line,
         forecast_period
@@ -266,7 +266,7 @@ const API = {
     apiClient.get('/manning-sheet/notifications/'),
 
   notificationsDownload: (notificationId) =>
-    apiClient.post('/manning-sheet/notifications/download_file/', null, {
+    apiClient.post('/manning-sheet/notifications/download/', null, {
       params: {
         notification_id: notificationId
       },
