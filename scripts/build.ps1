@@ -6,6 +6,8 @@ param (
 
 $ErrorActionPreference = "Stop"
 
+# Change to project root directory
+Set-Location -Path (Join-Path $PSScriptRoot "..")
 # Configuration
 $IMAGE_NAME = "laguna-ai-line-balancing"
 
@@ -105,7 +107,8 @@ Write-Log "Pushing Docker images..."
 Write-Ok "Docker images pushed successfully!"
 Write-Host ""
 Write-Host "======================================================="
-Write-Host "  ✅ Build complete!"
-Write-Host "  📦 ${IMAGE_NAME}:${FINAL_VERSION}"
-Write-Host "  📦 ${IMAGE_NAME}:latest"
+Write-Host "  [OK] Build complete!"
+Write-Host "  [+] ${IMAGE_NAME}:${FINAL_VERSION}"
+Write-Host "  [+] ${IMAGE_NAME}:latest"
+Write-Host "  [>] web app:  http://localhost:5173/"
 Write-Host "======================================================="

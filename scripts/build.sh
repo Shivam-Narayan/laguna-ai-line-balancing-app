@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Change to project root directory
+cd "$(dirname "$0")/.."
 # ──────────────────────────────────────────────────────────────────────────────
 # Configuration
 # ──────────────────────────────────────────────────────────────────────────────
@@ -183,7 +185,8 @@ docker push "${IMAGE_NAME}:latest"
 ok "Docker images pushed successfully!"
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  ✅ Build complete!"
-echo "  📦 ${IMAGE_NAME}:${VERSION}"
-echo "  📦 ${IMAGE_NAME}:latest"
+echo "  [OK] Build complete!"
+echo "  [+] ${IMAGE_NAME}:${VERSION}"
+echo "  [+] ${IMAGE_NAME}:latest"
+echo "  [>] web app:  http://localhost:5173/"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
