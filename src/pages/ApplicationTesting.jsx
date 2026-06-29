@@ -39,7 +39,7 @@ const ApplicationTesting = () => {
     };
 
     // Generic upload handler
-    const handleFileUpload = async (file, uploadType, apiFunction) => {
+    const handleFileUpload = async (file, uploadType, apiFunction, extraData = {}) => {
         if (!file) {
             showNotification('Please select a file to upload.', 'error');
             return;
@@ -51,6 +51,11 @@ const ApplicationTesting = () => {
         try {
             const formData = new FormData();
             formData.append('file', file);
+            
+            // Append extra data
+            Object.keys(extraData).forEach(key => {
+                formData.append(key, extraData[key]);
+            });
 
             const response = await apiFunction(formData);
             showNotification(`${uploadType} file uploaded successfully!`, 'success');
@@ -71,7 +76,11 @@ const ApplicationTesting = () => {
     // Individual upload handlers
     const handleAbsenteeismUpload = (event) => {
         const file = event.target.files[0];
-        handleFileUpload(file, 'absenteeism', API.uploadAbsenteeism);
+        const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const currentDate = new Date();
+        const month = monthNames[currentDate.getMonth()];
+        const year = currentDate.getFullYear();
+        handleFileUpload(file, 'absenteeism', API.uploadAbsenteeism, { month, year });
     };
 
     const handleAttendanceUpload = (event) => {

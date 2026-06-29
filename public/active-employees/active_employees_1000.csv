@@ -1,0 +1,1001 @@
+id,employee_id,employee_name,line,section,designation,machinist,service_years,status,gender
+1,EMP0001,John Mitchell,Line C,Quality Control,Supervisor,Yes,14.9,Active,Male
+2,EMP0002,Justin Ramirez,Line A,Cutting,Senior Operator,Yes,5.0,Active,Male
+3,EMP0003,Alexander Adams,Line E,Embroidery,Supervisor,No,12.0,Active,Male
+4,EMP0004,Jerry Singh,Line B,Embroidery,Helper,No,3.5,Probation,Male
+5,EMP0005,Susan Garcia,Line D,Sewing,Helper,No,12.3,Active,Female
+6,EMP0006,Anna Davis,Line D,Sewing,Assistant Supervisor,No,16.7,Active,Female
+7,EMP0007,Pamela Gonzalez,Line A,Cutting,Supervisor,No,19.7,On Leave,Female
+8,EMP0008,Timothy Moore,Line D,Ironing,Team Leader,No,7.4,Active,Male
+9,EMP0009,Scott Green,Line B,Quality Control,Team Leader,No,7.9,Probation,Male
+10,EMP0010,Patrick Lee,Line A,Quality Control,Machine Operator,No,8.3,Active,Male
+11,EMP0011,Margaret Adams,Line D,Embroidery,Floor Manager,Yes,5.7,Active,Female
+12,EMP0012,Catherine Nguyen,Line D,Embroidery,Helper,Yes,19.9,Active,Female
+13,EMP0013,Elizabeth Carter,Line A,Sewing,Team Leader,Yes,15.9,Active,Female
+14,EMP0014,Timothy Harris,Line E,Washing,Assistant Supervisor,No,19.4,On Leave,Male
+15,EMP0015,Patrick Campbell,Line A,Packing,Helper,Yes,6.2,Active,Male
+16,EMP0016,Jack Khan,Line C,Finishing,Assistant Supervisor,Yes,17.5,Active,Male
+17,EMP0017,Charles White,Line B,Cutting,Production Staff,No,10.0,Active,Male
+18,EMP0018,Donna Thomas,Line A,Quality Control,Production Staff,Yes,2.2,Active,Female
+19,EMP0019,Jerry Wright,Line B,Finishing,Floor Manager,Yes,5.7,On Leave,Male
+20,EMP0020,Margaret Verma,Line E,Quality Control,Quality Inspector,No,19.9,Active,Female
+21,EMP0021,Shirley Lewis,Line A,Quality Control,Supervisor,Yes,7.1,Active,Female
+22,EMP0022,Justin Anderson,Line A,Sewing,Machine Operator,Yes,1.8,Active,Male
+23,EMP0023,Barbara Allen,Line B,Packing,Floor Manager,Yes,11.0,Active,Female
+24,EMP0024,Ashley Kumar,Line D,Embroidery,Supervisor,Yes,2.4,Active,Female
+25,EMP0025,Rebecca Robinson,Line A,Sewing,Machine Operator,No,14.7,Active,Female
+26,EMP0026,Donald Gonzalez,Line B,Washing,Team Leader,No,4.1,Active,Male
+27,EMP0027,Jeffrey Singh,Line E,Sewing,Machine Operator,Yes,19.4,On Leave,Male
+28,EMP0028,Christopher Clark,Line D,Washing,Supervisor,No,18.1,Active,Male
+29,EMP0029,Timothy Taylor,Line D,Packing,Trainer,No,3.5,Active,Male
+30,EMP0030,Justin Mitchell,Line E,Cutting,Helper,Yes,1.5,Active,Male
+31,EMP0031,Michael Allen,Line A,Finishing,Senior Operator,Yes,13.7,Active,Male
+32,EMP0032,Larry Thomas,Line E,Cutting,Production Staff,Yes,8.7,Active,Male
+33,EMP0033,Dorothy Wilson,Line C,Quality Control,Quality Inspector,No,3.1,Active,Female
+34,EMP0034,Michelle Verma,Line A,Cutting,Floor Manager,Yes,1.9,Active,Female
+35,EMP0035,Sarah Verma,Line C,Sewing,Supervisor,No,6.1,Active,Female
+36,EMP0036,Helen Singh,Line E,Cutting,Assistant Supervisor,No,18.7,Active,Female
+37,EMP0037,Steven Davis,Line A,Finishing,Quality Inspector,No,12.3,Active,Male
+38,EMP0038,Patrick Green,Line C,Washing,Quality Inspector,Yes,2.3,Active,Male
+39,EMP0039,Jennifer Smith,Line C,Finishing,Quality Inspector,Yes,15.0,Active,Female
+40,EMP0040,Brenda Smith,Line A,Sewing,Team Leader,Yes,16.8,Active,Female
+41,EMP0041,Jason Rodriguez,Line A,Packing,Helper,Yes,18.0,Active,Male
+42,EMP0042,Raymond Miller,Line C,Embroidery,Production Staff,Yes,18.6,Active,Male
+43,EMP0043,Daniel Khan,Line D,Cutting,Team Leader,No,15.8,Active,Male
+44,EMP0044,Paul Hernandez,Line A,Embroidery,Machine Operator,No,4.8,Active,Male
+45,EMP0045,Amanda Martin,Line B,Quality Control,Machine Operator,Yes,8.3,Active,Female
+46,EMP0046,Tyler Moore,Line C,Embroidery,Assistant Supervisor,No,18.8,Active,Male
+47,EMP0047,Nancy Nguyen,Line C,Cutting,Senior Operator,No,7.2,Active,Female
+48,EMP0048,Nicole Allen,Line A,Embroidery,Production Staff,Yes,5.5,Active,Female
+49,EMP0049,Eric Verma,Line E,Quality Control,Helper,No,1.9,Active,Male
+50,EMP0050,Helen Lee,Line A,Packing,Assistant Supervisor,No,13.5,Active,Female
+51,EMP0051,Brenda Rodriguez,Line B,Embroidery,Trainer,Yes,12.5,Active,Female
+52,EMP0052,Kenneth Jackson,Line B,Embroidery,Production Staff,No,9.6,Active,Male
+53,EMP0053,Nicholas Walker,Line B,Sewing,Quality Inspector,No,2.3,Probation,Male
+54,EMP0054,Patrick Martin,Line B,Quality Control,Team Leader,Yes,1.4,Probation,Male
+55,EMP0055,Ryan Clark,Line E,Quality Control,Trainer,No,8.3,Active,Male
+56,EMP0056,Jerry Ali,Line A,Embroidery,Supervisor,Yes,16.2,Active,Male
+57,EMP0057,Linda Scott,Line B,Sewing,Floor Manager,Yes,16.1,Active,Female
+58,EMP0058,Maria Malik,Line D,Embroidery,Assistant Supervisor,No,18.0,Active,Female
+59,EMP0059,Laura Taylor,Line B,Packing,Assistant Supervisor,No,12.7,Active,Female
+60,EMP0060,Alexander Jackson,Line B,Packing,Helper,No,17.9,Active,Male
+61,EMP0061,Mark Harris,Line B,Quality Control,Senior Operator,No,8.4,Active,Male
+62,EMP0062,Linda Wilson,Line D,Embroidery,Production Staff,Yes,17.2,Active,Female
+63,EMP0063,Kathleen Smith,Line C,Packing,Trainer,No,11.0,Active,Female
+64,EMP0064,Gary Anderson,Line C,Embroidery,Floor Manager,Yes,8.1,Active,Male
+65,EMP0065,Janet Hernandez,Line D,Finishing,Production Staff,Yes,18.2,Active,Female
+66,EMP0066,David Adams,Line D,Finishing,Floor Manager,Yes,1.5,Active,Male
+67,EMP0067,Ryan Lee,Line C,Embroidery,Quality Inspector,No,5.4,Active,Male
+68,EMP0068,Dennis Wright,Line A,Ironing,Supervisor,Yes,15.7,Active,Male
+69,EMP0069,Donald Gonzalez,Line A,Finishing,Supervisor,Yes,9.7,Active,Male
+70,EMP0070,Ryan Hall,Line C,Ironing,Team Leader,Yes,15.7,Active,Male
+71,EMP0071,Susan Nguyen,Line A,Packing,Production Staff,No,8.2,Active,Female
+72,EMP0072,Justin Hall,Line B,Sewing,Quality Inspector,Yes,16.0,Active,Male
+73,EMP0073,Brian Wright,Line D,Ironing,Senior Operator,No,0.7,Active,Male
+74,EMP0074,Susan Ramirez,Line C,Washing,Team Leader,No,3.9,Active,Female
+75,EMP0075,Helen Singh,Line E,Washing,Floor Manager,No,16.6,Active,Female
+76,EMP0076,Ashley Shah,Line A,Packing,Floor Manager,Yes,15.1,Active,Female
+77,EMP0077,Carol Johnson,Line D,Ironing,Team Leader,No,4.6,Active,Female
+78,EMP0078,Kimberly Khan,Line E,Packing,Assistant Supervisor,Yes,10.6,Active,Female
+79,EMP0079,Jack Clark,Line D,Quality Control,Floor Manager,No,9.2,Active,Male
+80,EMP0080,Sandra Sanchez,Line B,Packing,Production Staff,No,9.7,Active,Female
+81,EMP0081,Catherine Scott,Line C,Ironing,Floor Manager,No,6.5,Active,Female
+82,EMP0082,Joshua Davis,Line E,Finishing,Supervisor,Yes,14.9,Active,Male
+83,EMP0083,Susan Shah,Line B,Packing,Supervisor,No,4.0,Active,Female
+84,EMP0084,Paul Williams,Line A,Packing,Team Leader,No,2.5,Active,Male
+85,EMP0085,Kathleen Walker,Line D,Ironing,Team Leader,Yes,5.4,On Leave,Female
+86,EMP0086,William Sanchez,Line D,Sewing,Production Staff,Yes,3.5,Active,Male
+87,EMP0087,Elizabeth Thomas,Line A,Embroidery,Production Staff,Yes,15.6,Active,Female
+88,EMP0088,Donna Ali,Line E,Embroidery,Quality Inspector,Yes,12.4,Active,Female
+89,EMP0089,Benjamin Wilson,Line C,Sewing,Team Leader,Yes,3.9,Active,Male
+90,EMP0090,Edward Lewis,Line E,Washing,Quality Inspector,Yes,5.0,Active,Male
+91,EMP0091,Barbara Baker,Line B,Packing,Production Staff,Yes,8.8,Active,Female
+92,EMP0092,Paul Patel,Line B,Sewing,Machine Operator,Yes,16.0,Active,Male
+93,EMP0093,Laura Davis,Line D,Packing,Trainer,No,10.3,Active,Female
+94,EMP0094,Scott Williams,Line D,Ironing,Production Staff,No,1.0,Active,Male
+95,EMP0095,Jerry Baker,Line C,Cutting,Team Leader,No,10.6,Active,Male
+96,EMP0096,Nancy Nguyen,Line D,Washing,Senior Operator,No,7.3,Active,Female
+97,EMP0097,Christopher Perez,Line D,Washing,Quality Inspector,No,16.4,Active,Male
+98,EMP0098,Elizabeth Lee,Line C,Ironing,Senior Operator,No,17.4,Active,Female
+99,EMP0099,Raymond Ali,Line E,Washing,Trainer,Yes,4.2,Active,Male
+100,EMP0100,Samantha Lewis,Line A,Quality Control,Quality Inspector,Yes,18.6,Active,Female
+101,EMP0101,Jessica Johnson,Line E,Quality Control,Team Leader,No,11.2,Active,Female
+102,EMP0102,Mark Shah,Line A,Washing,Senior Operator,Yes,10.2,Active,Male
+103,EMP0103,Rebecca Shah,Line D,Washing,Supervisor,No,11.2,Active,Female
+104,EMP0104,William Moore,Line D,Ironing,Assistant Supervisor,No,16.5,Active,Male
+105,EMP0105,Emma Nguyen,Line D,Finishing,Floor Manager,No,7.2,Active,Female
+106,EMP0106,Cynthia Verma,Line C,Quality Control,Supervisor,No,5.1,Active,Female
+107,EMP0107,Joshua Mitchell,Line D,Embroidery,Trainer,Yes,10.2,Active,Male
+108,EMP0108,Susan Ali,Line D,Sewing,Assistant Supervisor,No,0.8,Active,Female
+109,EMP0109,William Walker,Line C,Ironing,Production Staff,No,13.2,On Leave,Male
+110,EMP0110,Michelle Green,Line D,Cutting,Production Staff,Yes,5.1,Active,Female
+111,EMP0111,Sandra Mitchell,Line A,Embroidery,Senior Operator,Yes,9.2,Active,Female
+112,EMP0112,Robert Lee,Line A,Packing,Helper,No,8.9,Active,Male
+113,EMP0113,Pamela Baker,Line B,Finishing,Team Leader,Yes,12.4,Active,Female
+114,EMP0114,Gary Sharma,Line E,Finishing,Supervisor,No,12.9,Active,Male
+115,EMP0115,Ryan Malik,Line C,Finishing,Senior Operator,No,18.9,Probation,Male
+116,EMP0116,Samantha Ramirez,Line C,Washing,Quality Inspector,Yes,20.0,On Leave,Female
+117,EMP0117,Donald Harris,Line E,Ironing,Production Staff,No,19.9,Active,Male
+118,EMP0118,Kimberly Smith,Line E,Cutting,Production Staff,No,16.7,On Leave,Female
+119,EMP0119,Scott Singh,Line C,Quality Control,Supervisor,No,13.7,Active,Male
+120,EMP0120,Benjamin Miller,Line A,Packing,Floor Manager,Yes,11.8,Active,Male
+121,EMP0121,Andrew Lee,Line D,Finishing,Supervisor,Yes,15.8,On Leave,Male
+122,EMP0122,Shirley Allen,Line C,Finishing,Quality Inspector,No,19.4,Active,Female
+123,EMP0123,Jessica Robinson,Line A,Finishing,Supervisor,No,19.4,Active,Female
+124,EMP0124,Elizabeth Kumar,Line D,Cutting,Quality Inspector,Yes,9.4,Active,Female
+125,EMP0125,Emma Harris,Line C,Sewing,Supervisor,No,1.0,On Leave,Female
+126,EMP0126,Helen Anderson,Line A,Washing,Quality Inspector,No,2.8,Active,Female
+127,EMP0127,Kenneth Young,Line A,Sewing,Supervisor,Yes,8.1,Active,Male
+128,EMP0128,Emma Mitchell,Line B,Embroidery,Senior Operator,No,12.5,On Leave,Female
+129,EMP0129,Jennifer Hall,Line C,Quality Control,Floor Manager,No,19.0,On Leave,Female
+130,EMP0130,Patrick White,Line E,Ironing,Machine Operator,No,5.9,Probation,Male
+131,EMP0131,Elizabeth Nelson,Line B,Cutting,Machine Operator,No,5.2,Active,Female
+132,EMP0132,William Shah,Line E,Quality Control,Production Staff,Yes,16.4,Active,Male
+133,EMP0133,Scott Smith,Line C,Finishing,Team Leader,No,16.1,Active,Male
+134,EMP0134,Thomas Smith,Line C,Quality Control,Production Staff,No,0.8,Active,Male
+135,EMP0135,Dennis Clark,Line E,Sewing,Senior Operator,No,9.2,Active,Male
+136,EMP0136,Jeffrey Allen,Line B,Cutting,Assistant Supervisor,No,9.4,Probation,Male
+137,EMP0137,Jacob Ahmed,Line D,Embroidery,Senior Operator,No,14.4,Active,Male
+138,EMP0138,Joshua Hill,Line B,Sewing,Team Leader,No,12.7,Active,Male
+139,EMP0139,Deborah Hill,Line E,Packing,Floor Manager,No,2.4,Active,Female
+140,EMP0140,Jason Lewis,Line B,Embroidery,Helper,No,8.3,Active,Male
+141,EMP0141,Sharon Lee,Line C,Ironing,Team Leader,No,1.8,Active,Female
+142,EMP0142,Jason Miller,Line C,Finishing,Assistant Supervisor,Yes,11.9,Active,Male
+143,EMP0143,Christine Davis,Line D,Ironing,Trainer,Yes,19.4,Active,Female
+144,EMP0144,Susan Torres,Line E,Quality Control,Team Leader,No,4.9,Active,Female
+145,EMP0145,Jessica Carter,Line C,Quality Control,Trainer,Yes,12.4,Active,Female
+146,EMP0146,Patricia Lopez,Line C,Packing,Helper,No,0.6,On Leave,Female
+147,EMP0147,Barbara Martinez,Line A,Sewing,Assistant Supervisor,Yes,7.8,Active,Female
+148,EMP0148,George Martin,Line C,Sewing,Machine Operator,Yes,3.6,Active,Male
+149,EMP0149,Paul Lewis,Line D,Washing,Production Staff,No,8.6,Active,Male
+150,EMP0150,Brian Ramirez,Line A,Packing,Production Staff,No,10.8,Active,Male
+151,EMP0151,Ronald Hill,Line A,Cutting,Supervisor,No,18.9,Active,Male
+152,EMP0152,Emily Lee,Line A,Cutting,Floor Manager,No,3.9,Active,Female
+153,EMP0153,Nicholas Scott,Line C,Sewing,Trainer,Yes,9.0,Active,Male
+154,EMP0154,Joshua Torres,Line D,Embroidery,Trainer,No,2.7,Active,Male
+155,EMP0155,Lisa Singh,Line E,Washing,Helper,Yes,9.0,Active,Female
+156,EMP0156,Emma Sanchez,Line E,Sewing,Trainer,No,15.0,Active,Female
+157,EMP0157,William Allen,Line A,Quality Control,Helper,No,14.7,Active,Male
+158,EMP0158,Donald Miller,Line B,Packing,Supervisor,Yes,12.2,Active,Male
+159,EMP0159,Daniel Roberts,Line D,Washing,Production Staff,No,13.8,On Leave,Male
+160,EMP0160,Samantha Lee,Line B,Washing,Senior Operator,No,9.1,Active,Female
+161,EMP0161,Emma Brown,Line C,Sewing,Quality Inspector,No,9.3,Active,Female
+162,EMP0162,Barbara Adams,Line A,Embroidery,Floor Manager,Yes,9.3,Active,Female
+163,EMP0163,Joshua Hill,Line D,Finishing,Machine Operator,No,2.5,On Leave,Male
+164,EMP0164,Carolyn Garcia,Line E,Finishing,Machine Operator,Yes,14.3,Probation,Female
+165,EMP0165,George White,Line C,Embroidery,Trainer,No,13.7,Active,Male
+166,EMP0166,Barbara Perez,Line A,Embroidery,Quality Inspector,No,14.6,Active,Female
+167,EMP0167,Kevin Garcia,Line E,Finishing,Helper,No,19.4,Active,Male
+168,EMP0168,Sarah Hill,Line A,Packing,Assistant Supervisor,No,13.0,Active,Female
+169,EMP0169,Raymond Hall,Line E,Sewing,Trainer,No,0.9,Active,Male
+170,EMP0170,Kevin Roberts,Line D,Quality Control,Supervisor,Yes,3.5,Active,Male
+171,EMP0171,Nicholas Roberts,Line E,Cutting,Helper,Yes,12.1,Active,Male
+172,EMP0172,Frank Roberts,Line E,Finishing,Floor Manager,Yes,8.5,Active,Male
+173,EMP0173,Jeffrey Flores,Line C,Washing,Supervisor,Yes,6.5,Active,Male
+174,EMP0174,Betty White,Line E,Washing,Floor Manager,No,15.7,Active,Female
+175,EMP0175,Lisa Patel,Line B,Finishing,Quality Inspector,Yes,13.0,On Leave,Female
+176,EMP0176,Alexander Ahmed,Line E,Sewing,Quality Inspector,Yes,15.4,Active,Male
+177,EMP0177,Jason Garcia,Line B,Washing,Helper,Yes,8.6,Active,Male
+178,EMP0178,Ashley Harris,Line A,Ironing,Supervisor,Yes,6.7,Active,Female
+179,EMP0179,Karen Rodriguez,Line A,Packing,Floor Manager,Yes,15.3,Active,Female
+180,EMP0180,David Johnson,Line C,Quality Control,Team Leader,No,2.7,Active,Male
+181,EMP0181,Jessica Brown,Line B,Embroidery,Production Staff,No,1.7,Active,Female
+182,EMP0182,Nicole Wright,Line A,Quality Control,Team Leader,No,8.9,Active,Female
+183,EMP0183,Larry Clark,Line B,Sewing,Assistant Supervisor,No,1.8,Active,Male
+184,EMP0184,Timothy Ali,Line D,Cutting,Trainer,No,5.4,Active,Male
+185,EMP0185,Brian Thomas,Line A,Ironing,Team Leader,Yes,7.4,Active,Male
+186,EMP0186,Tyler Baker,Line D,Washing,Team Leader,Yes,1.7,Active,Male
+187,EMP0187,Jennifer Jackson,Line B,Cutting,Supervisor,Yes,6.7,Active,Female
+188,EMP0188,Anna Walker,Line C,Cutting,Supervisor,No,7.5,Active,Female
+189,EMP0189,Kimberly Davis,Line C,Embroidery,Trainer,No,17.9,Active,Female
+190,EMP0190,Gary Hall,Line D,Ironing,Assistant Supervisor,No,16.1,Active,Male
+191,EMP0191,Jason Hill,Line B,Packing,Helper,Yes,2.1,Active,Male
+192,EMP0192,Laura Hill,Line D,Finishing,Floor Manager,No,9.2,Active,Female
+193,EMP0193,Helen Ramirez,Line C,Cutting,Senior Operator,No,7.6,Active,Female
+194,EMP0194,John Martinez,Line E,Washing,Machine Operator,Yes,1.8,Active,Male
+195,EMP0195,Melissa Harris,Line E,Cutting,Production Staff,Yes,13.7,On Leave,Female
+196,EMP0196,Laura Carter,Line A,Finishing,Assistant Supervisor,No,8.3,Active,Female
+197,EMP0197,Joseph Johnson,Line B,Washing,Assistant Supervisor,No,18.3,Active,Male
+198,EMP0198,Carolyn Lewis,Line B,Packing,Floor Manager,Yes,2.9,On Leave,Female
+199,EMP0199,Nancy Malik,Line D,Sewing,Helper,No,14.3,Active,Female
+200,EMP0200,Donna Ahmed,Line B,Finishing,Helper,Yes,2.9,Active,Female
+201,EMP0201,Donald Kumar,Line D,Cutting,Helper,No,9.6,Probation,Male
+202,EMP0202,Brandon Khan,Line A,Sewing,Quality Inspector,No,20.0,Active,Male
+203,EMP0203,Heather Clark,Line E,Sewing,Team Leader,No,13.0,Active,Female
+204,EMP0204,Sarah Khan,Line E,Finishing,Team Leader,No,10.3,On Leave,Female
+205,EMP0205,Eric Martinez,Line C,Finishing,Team Leader,No,18.7,Active,Male
+206,EMP0206,Elizabeth Taylor,Line B,Packing,Team Leader,No,12.5,Active,Female
+207,EMP0207,Justin Nguyen,Line B,Finishing,Production Staff,No,16.9,Active,Male
+208,EMP0208,David Williams,Line E,Packing,Supervisor,No,12.6,Active,Male
+209,EMP0209,Katherine Martin,Line D,Quality Control,Trainer,No,9.3,Active,Female
+210,EMP0210,Jeffrey Clark,Line D,Washing,Supervisor,No,12.3,Active,Male
+211,EMP0211,Janet Ali,Line C,Embroidery,Team Leader,No,10.5,Active,Female
+212,EMP0212,Ryan Davis,Line C,Washing,Supervisor,Yes,2.4,Active,Male
+213,EMP0213,Helen Clark,Line B,Finishing,Helper,No,4.2,Active,Female
+214,EMP0214,Amy Khan,Line C,Washing,Machine Operator,Yes,18.9,Active,Female
+215,EMP0215,Anthony Nguyen,Line C,Cutting,Machine Operator,No,10.2,On Leave,Male
+216,EMP0216,Emily Wright,Line A,Sewing,Trainer,Yes,17.7,Active,Female
+217,EMP0217,Melissa Williams,Line D,Cutting,Production Staff,Yes,7.6,Active,Female
+218,EMP0218,Angela Lewis,Line E,Packing,Production Staff,Yes,3.0,Active,Female
+219,EMP0219,Carol Scott,Line C,Finishing,Supervisor,No,10.3,Active,Female
+220,EMP0220,Alexander Perez,Line D,Washing,Team Leader,Yes,6.9,Active,Male
+221,EMP0221,Ronald Flores,Line C,Ironing,Assistant Supervisor,No,14.3,Active,Male
+222,EMP0222,George Perez,Line A,Embroidery,Production Staff,No,16.0,Active,Male
+223,EMP0223,Scott Walker,Line C,Quality Control,Machine Operator,No,3.8,Active,Male
+224,EMP0224,Karen Patel,Line B,Cutting,Production Staff,Yes,4.2,Active,Female
+225,EMP0225,Karen Clark,Line B,Embroidery,Assistant Supervisor,No,17.5,Active,Female
+226,EMP0226,Alexander Rodriguez,Line E,Quality Control,Assistant Supervisor,No,20.0,Active,Male
+227,EMP0227,Michelle Lopez,Line D,Ironing,Assistant Supervisor,No,13.7,On Leave,Female
+228,EMP0228,Helen Walker,Line B,Quality Control,Quality Inspector,No,4.9,Probation,Female
+229,EMP0229,Heather Jackson,Line B,Washing,Helper,No,7.3,On Leave,Female
+230,EMP0230,Emily Davis,Line E,Embroidery,Trainer,No,19.1,Active,Female
+231,EMP0231,Jennifer Jackson,Line A,Ironing,Floor Manager,No,15.1,Active,Female
+232,EMP0232,Brenda Hall,Line C,Finishing,Senior Operator,Yes,5.2,Active,Female
+233,EMP0233,Benjamin Anderson,Line A,Sewing,Trainer,No,14.5,Active,Male
+234,EMP0234,James Scott,Line B,Embroidery,Floor Manager,No,13.2,Active,Male
+235,EMP0235,Michelle Jackson,Line A,Sewing,Production Staff,Yes,10.9,Active,Female
+236,EMP0236,Daniel Clark,Line B,Cutting,Trainer,No,4.1,Active,Male
+237,EMP0237,Jennifer Smith,Line C,Sewing,Helper,No,9.4,Active,Female
+238,EMP0238,Sarah Ahmed,Line E,Washing,Quality Inspector,Yes,16.3,Active,Female
+239,EMP0239,Katherine Taylor,Line B,Cutting,Helper,No,11.6,Active,Female
+240,EMP0240,Brandon Ahmed,Line D,Embroidery,Assistant Supervisor,No,2.2,Active,Male
+241,EMP0241,Thomas Walker,Line C,Quality Control,Machine Operator,No,8.0,Active,Male
+242,EMP0242,Carol Martin,Line E,Cutting,Quality Inspector,No,14.0,Active,Female
+243,EMP0243,Ryan Martin,Line B,Embroidery,Assistant Supervisor,No,14.0,Active,Male
+244,EMP0244,Melissa Flores,Line B,Quality Control,Team Leader,No,3.5,Active,Female
+245,EMP0245,Rebecca Hall,Line E,Washing,Assistant Supervisor,Yes,15.4,Active,Female
+246,EMP0246,Eric Lewis,Line E,Ironing,Senior Operator,Yes,1.7,Active,Male
+247,EMP0247,Larry Wright,Line B,Finishing,Helper,No,2.8,Active,Male
+248,EMP0248,Elizabeth Malik,Line E,Washing,Machine Operator,No,3.1,Active,Female
+249,EMP0249,Stephen Robinson,Line C,Cutting,Trainer,No,16.4,Active,Male
+250,EMP0250,Robert Ramirez,Line C,Sewing,Assistant Supervisor,Yes,18.7,Active,Male
+251,EMP0251,Jennifer Jackson,Line D,Finishing,Team Leader,No,7.8,On Leave,Female
+252,EMP0252,Deborah Harris,Line A,Finishing,Helper,Yes,4.0,Active,Female
+253,EMP0253,Jack Anderson,Line A,Cutting,Quality Inspector,No,13.6,Active,Male
+254,EMP0254,Sandra Thomas,Line D,Ironing,Team Leader,No,4.2,On Leave,Female
+255,EMP0255,Robert Singh,Line D,Cutting,Supervisor,Yes,1.8,Active,Male
+256,EMP0256,Nicole Baker,Line A,Quality Control,Machine Operator,No,9.1,Active,Female
+257,EMP0257,Thomas Allen,Line C,Quality Control,Production Staff,No,11.8,Active,Male
+258,EMP0258,Ashley Martin,Line B,Quality Control,Trainer,No,5.9,Active,Female
+259,EMP0259,Benjamin Baker,Line D,Washing,Machine Operator,No,18.9,Active,Male
+260,EMP0260,Rachel Clark,Line D,Finishing,Quality Inspector,No,4.1,Active,Female
+261,EMP0261,Mark Martin,Line B,Washing,Machine Operator,No,19.4,Active,Male
+262,EMP0262,Timothy Thomas,Line C,Quality Control,Helper,Yes,18.5,Active,Male
+263,EMP0263,Jonathan Campbell,Line B,Cutting,Quality Inspector,No,13.6,Active,Male
+264,EMP0264,Matthew Singh,Line E,Quality Control,Floor Manager,Yes,17.5,Active,Male
+265,EMP0265,Anthony Verma,Line B,Sewing,Floor Manager,Yes,14.1,Active,Male
+266,EMP0266,Ashley Scott,Line C,Packing,Trainer,No,10.9,Active,Female
+267,EMP0267,Melissa Allen,Line D,Washing,Senior Operator,No,15.4,Active,Female
+268,EMP0268,George Lee,Line D,Cutting,Production Staff,Yes,15.0,Active,Male
+269,EMP0269,Emily Martinez,Line B,Ironing,Supervisor,No,11.6,Active,Female
+270,EMP0270,Dorothy Carter,Line D,Washing,Floor Manager,Yes,14.8,Active,Female
+271,EMP0271,Jack Wright,Line D,Finishing,Assistant Supervisor,Yes,10.7,Active,Male
+272,EMP0272,Raymond Brown,Line A,Embroidery,Team Leader,Yes,1.8,Active,Male
+273,EMP0273,Nicholas Robinson,Line C,Cutting,Production Staff,No,13.4,Active,Male
+274,EMP0274,Mary Johnson,Line E,Packing,Assistant Supervisor,No,0.8,Active,Female
+275,EMP0275,Nancy Miller,Line A,Finishing,Supervisor,Yes,12.6,Active,Female
+276,EMP0276,Kimberly Kumar,Line D,Sewing,Helper,No,9.5,Active,Female
+277,EMP0277,Kenneth Baker,Line A,Cutting,Senior Operator,No,7.9,Active,Male
+278,EMP0278,Benjamin Smith,Line B,Sewing,Floor Manager,No,13.1,Active,Male
+279,EMP0279,Eric Sharma,Line A,Quality Control,Supervisor,No,5.8,On Leave,Male
+280,EMP0280,Anna Torres,Line A,Finishing,Helper,Yes,19.2,Active,Female
+281,EMP0281,Barbara Martin,Line B,Quality Control,Production Staff,No,13.7,Active,Female
+282,EMP0282,Maria Mitchell,Line B,Sewing,Assistant Supervisor,No,1.5,Active,Female
+283,EMP0283,Kevin Hill,Line E,Embroidery,Helper,Yes,12.9,Active,Male
+284,EMP0284,Amy Anderson,Line C,Embroidery,Trainer,Yes,13.8,Active,Female
+285,EMP0285,Tyler Flores,Line C,Quality Control,Senior Operator,Yes,5.7,Active,Male
+286,EMP0286,Dennis Harris,Line C,Ironing,Senior Operator,Yes,0.6,Active,Male
+287,EMP0287,Maria Moore,Line A,Finishing,Senior Operator,Yes,8.9,Active,Female
+288,EMP0288,Susan Johnson,Line A,Ironing,Assistant Supervisor,Yes,12.1,Active,Female
+289,EMP0289,Mary Jackson,Line D,Embroidery,Senior Operator,Yes,11.7,Active,Female
+290,EMP0290,Lisa Rodriguez,Line C,Packing,Quality Inspector,No,3.3,Active,Female
+291,EMP0291,Rebecca Martin,Line D,Sewing,Helper,No,18.9,Active,Female
+292,EMP0292,Nicole Flores,Line B,Washing,Senior Operator,Yes,6.4,On Leave,Female
+293,EMP0293,Helen Harris,Line C,Washing,Helper,No,16.4,On Leave,Female
+294,EMP0294,Kenneth Lee,Line E,Quality Control,Floor Manager,No,4.0,Active,Male
+295,EMP0295,Emily Mitchell,Line D,Quality Control,Helper,No,6.0,Active,Female
+296,EMP0296,Jessica Verma,Line E,Quality Control,Production Staff,Yes,13.8,Active,Female
+297,EMP0297,Carolyn Wilson,Line D,Packing,Senior Operator,No,13.6,Active,Female
+298,EMP0298,Ashley Taylor,Line B,Embroidery,Trainer,Yes,9.3,Active,Female
+299,EMP0299,Anna Allen,Line D,Cutting,Helper,Yes,2.6,Active,Female
+300,EMP0300,Lisa Adams,Line E,Cutting,Production Staff,No,19.4,Active,Female
+301,EMP0301,Susan Smith,Line A,Packing,Supervisor,Yes,9.2,Active,Female
+302,EMP0302,Brian Johnson,Line D,Sewing,Quality Inspector,No,18.5,Active,Male
+303,EMP0303,Brian Martin,Line C,Washing,Supervisor,No,7.3,Active,Male
+304,EMP0304,Michelle Jones,Line C,Cutting,Senior Operator,Yes,17.1,Active,Female
+305,EMP0305,Dennis Thomas,Line E,Finishing,Assistant Supervisor,Yes,7.0,Active,Male
+306,EMP0306,Sandra Singh,Line D,Finishing,Team Leader,No,8.2,Active,Female
+307,EMP0307,Jeffrey Nguyen,Line D,Embroidery,Machine Operator,Yes,4.5,Active,Male
+308,EMP0308,Larry Miller,Line E,Finishing,Helper,No,4.3,Active,Male
+309,EMP0309,Shirley Green,Line C,Embroidery,Production Staff,No,11.9,Active,Female
+310,EMP0310,Helen Lopez,Line C,Sewing,Team Leader,No,2.8,Active,Female
+311,EMP0311,George Hall,Line B,Embroidery,Trainer,Yes,11.7,Active,Male
+312,EMP0312,Samantha Wright,Line B,Finishing,Floor Manager,No,3.2,Active,Female
+313,EMP0313,Helen Brown,Line C,Cutting,Floor Manager,Yes,4.3,Active,Female
+314,EMP0314,Rebecca Baker,Line D,Embroidery,Floor Manager,No,3.8,Active,Female
+315,EMP0315,Andrew Williams,Line C,Quality Control,Assistant Supervisor,No,3.8,Active,Male
+316,EMP0316,Brenda Allen,Line A,Sewing,Quality Inspector,No,11.1,Active,Female
+317,EMP0317,Anna Wilson,Line D,Sewing,Supervisor,No,17.6,Active,Female
+318,EMP0318,Amanda Ali,Line A,Washing,Senior Operator,Yes,4.6,Active,Female
+319,EMP0319,Carolyn Flores,Line D,Finishing,Production Staff,Yes,15.8,Active,Female
+320,EMP0320,Larry Thompson,Line E,Packing,Production Staff,Yes,6.8,Active,Male
+321,EMP0321,Pamela Moore,Line E,Sewing,Team Leader,No,18.4,Probation,Female
+322,EMP0322,Frank Ali,Line B,Quality Control,Team Leader,No,16.7,Active,Male
+323,EMP0323,Amy Martinez,Line E,Packing,Trainer,No,9.3,Active,Female
+324,EMP0324,Ronald Allen,Line C,Ironing,Floor Manager,No,6.9,Active,Male
+325,EMP0325,Jack Robinson,Line C,Sewing,Assistant Supervisor,No,4.7,Active,Male
+326,EMP0326,Gary Moore,Line C,Packing,Helper,Yes,11.5,Active,Male
+327,EMP0327,Debra Carter,Line A,Cutting,Senior Operator,No,0.8,On Leave,Female
+328,EMP0328,Jeffrey Robinson,Line A,Embroidery,Supervisor,Yes,17.7,Active,Male
+329,EMP0329,Elizabeth Adams,Line C,Packing,Senior Operator,No,13.5,Active,Female
+330,EMP0330,Ronald Green,Line C,Quality Control,Trainer,Yes,14.2,Active,Male
+331,EMP0331,Barbara Rodriguez,Line E,Quality Control,Assistant Supervisor,No,0.7,Active,Female
+332,EMP0332,Jason Hall,Line B,Washing,Senior Operator,Yes,8.0,Active,Male
+333,EMP0333,Richard Lee,Line C,Packing,Team Leader,No,15.6,Active,Male
+334,EMP0334,Samuel Baker,Line B,Sewing,Assistant Supervisor,Yes,12.4,Active,Male
+335,EMP0335,Janet Wilson,Line B,Embroidery,Production Staff,No,17.3,Active,Female
+336,EMP0336,Thomas Carter,Line A,Embroidery,Helper,No,6.6,Active,Male
+337,EMP0337,Katherine Garcia,Line B,Packing,Machine Operator,No,4.5,Active,Female
+338,EMP0338,Dennis Sanchez,Line C,Cutting,Supervisor,No,8.0,Active,Male
+339,EMP0339,Eric Khan,Line A,Ironing,Helper,Yes,8.0,Active,Male
+340,EMP0340,Melissa Wright,Line B,Washing,Senior Operator,Yes,12.0,Active,Female
+341,EMP0341,Robert Verma,Line A,Embroidery,Assistant Supervisor,No,12.8,Active,Male
+342,EMP0342,Sharon Hall,Line D,Sewing,Assistant Supervisor,Yes,5.9,Active,Female
+343,EMP0343,Charles Wright,Line C,Embroidery,Production Staff,Yes,6.5,Active,Male
+344,EMP0344,Michael Thomas,Line A,Embroidery,Senior Operator,No,12.4,Active,Male
+345,EMP0345,Joseph Smith,Line B,Cutting,Team Leader,No,19.1,Active,Male
+346,EMP0346,Lisa White,Line B,Packing,Senior Operator,Yes,7.0,Active,Female
+347,EMP0347,Steven Rivera,Line E,Sewing,Floor Manager,No,10.5,Active,Male
+348,EMP0348,George Hernandez,Line C,Sewing,Production Staff,Yes,5.0,Active,Male
+349,EMP0349,James Thomas,Line A,Washing,Helper,No,18.4,Active,Male
+350,EMP0350,Stephen Singh,Line D,Quality Control,Helper,Yes,8.6,Active,Male
+351,EMP0351,Barbara Torres,Line C,Sewing,Assistant Supervisor,Yes,4.0,Active,Female
+352,EMP0352,Ronald Jones,Line D,Packing,Quality Inspector,No,2.2,Active,Male
+353,EMP0353,Betty Jackson,Line E,Packing,Production Staff,Yes,9.5,Active,Female
+354,EMP0354,Heather Roberts,Line B,Quality Control,Team Leader,Yes,18.7,Active,Female
+355,EMP0355,Samantha Shah,Line A,Ironing,Machine Operator,No,17.1,Active,Female
+356,EMP0356,Anthony King,Line B,Embroidery,Floor Manager,Yes,19.5,Active,Male
+357,EMP0357,Elizabeth Williams,Line B,Embroidery,Helper,No,19.5,Active,Female
+358,EMP0358,Nicholas Rodriguez,Line D,Sewing,Production Staff,Yes,9.0,Probation,Male
+359,EMP0359,Andrew Taylor,Line C,Embroidery,Helper,No,9.3,Active,Male
+360,EMP0360,Thomas Roberts,Line E,Sewing,Team Leader,Yes,3.7,Active,Male
+361,EMP0361,Jessica Wright,Line C,Quality Control,Floor Manager,No,9.5,On Leave,Female
+362,EMP0362,Christopher Singh,Line C,Cutting,Supervisor,No,3.4,Active,Male
+363,EMP0363,Stephanie Allen,Line A,Packing,Quality Inspector,Yes,1.1,Active,Female
+364,EMP0364,Brenda Mitchell,Line E,Quality Control,Senior Operator,No,2.5,Active,Female
+365,EMP0365,James Brown,Line B,Finishing,Supervisor,No,7.8,Active,Male
+366,EMP0366,Justin Nguyen,Line C,Sewing,Machine Operator,Yes,4.4,Active,Male
+367,EMP0367,David Malik,Line C,Sewing,Machine Operator,No,1.5,On Leave,Male
+368,EMP0368,Janet Sanchez,Line D,Cutting,Trainer,No,3.9,Active,Female
+369,EMP0369,Paul Moore,Line D,Finishing,Machine Operator,Yes,13.1,Active,Male
+370,EMP0370,Linda Garcia,Line C,Embroidery,Team Leader,No,4.4,On Leave,Female
+371,EMP0371,Benjamin Singh,Line E,Cutting,Trainer,No,9.9,Active,Male
+372,EMP0372,Pamela Allen,Line C,Embroidery,Quality Inspector,Yes,1.0,Active,Female
+373,EMP0373,Tyler Moore,Line A,Washing,Assistant Supervisor,No,15.5,Probation,Male
+374,EMP0374,Richard Thomas,Line B,Packing,Assistant Supervisor,Yes,15.4,On Leave,Male
+375,EMP0375,Amanda Verma,Line B,Finishing,Supervisor,No,16.2,Active,Female
+376,EMP0376,Alexander Hall,Line C,Finishing,Production Staff,Yes,16.8,Active,Male
+377,EMP0377,Anna Martin,Line B,Washing,Machine Operator,Yes,1.6,Active,Female
+378,EMP0378,Eric Walker,Line A,Ironing,Production Staff,Yes,16.2,Active,Male
+379,EMP0379,Joshua Brown,Line A,Finishing,Production Staff,Yes,15.6,Active,Male
+380,EMP0380,Barbara White,Line D,Sewing,Helper,No,6.8,Probation,Female
+381,EMP0381,Samantha Young,Line C,Finishing,Assistant Supervisor,No,4.9,Active,Female
+382,EMP0382,Timothy Martin,Line C,Finishing,Team Leader,Yes,19.0,On Leave,Male
+383,EMP0383,Heather Torres,Line A,Finishing,Production Staff,No,18.5,Probation,Female
+384,EMP0384,Benjamin Torres,Line A,Washing,Team Leader,No,15.0,Active,Male
+385,EMP0385,Lisa Green,Line A,Ironing,Floor Manager,Yes,5.7,Active,Female
+386,EMP0386,Brian Taylor,Line A,Cutting,Machine Operator,No,9.0,Active,Male
+387,EMP0387,Edward Young,Line D,Ironing,Assistant Supervisor,No,2.5,Active,Male
+388,EMP0388,Christopher Lewis,Line A,Cutting,Quality Inspector,Yes,6.7,Probation,Male
+389,EMP0389,Kevin Hernandez,Line D,Finishing,Senior Operator,Yes,7.1,Probation,Male
+390,EMP0390,Carolyn Johnson,Line D,Finishing,Production Staff,No,3.6,Active,Female
+391,EMP0391,Matthew Clark,Line E,Packing,Quality Inspector,No,5.1,Active,Male
+392,EMP0392,Karen Brown,Line C,Cutting,Trainer,Yes,6.2,Active,Female
+393,EMP0393,Betty Miller,Line A,Quality Control,Team Leader,No,19.6,Active,Female
+394,EMP0394,Kenneth Kumar,Line D,Washing,Floor Manager,No,2.3,Active,Male
+395,EMP0395,George Khan,Line D,Ironing,Team Leader,No,1.4,Active,Male
+396,EMP0396,Sandra Shah,Line C,Cutting,Team Leader,Yes,2.2,Active,Female
+397,EMP0397,Maria Nguyen,Line B,Cutting,Trainer,No,19.3,Active,Female
+398,EMP0398,Pamela Khan,Line B,Washing,Quality Inspector,Yes,8.2,On Leave,Female
+399,EMP0399,Nicholas Torres,Line E,Finishing,Senior Operator,No,3.9,Probation,Male
+400,EMP0400,Matthew Rodriguez,Line A,Embroidery,Senior Operator,No,4.4,Active,Male
+401,EMP0401,Scott Taylor,Line C,Sewing,Senior Operator,No,11.3,Active,Male
+402,EMP0402,Shirley Robinson,Line A,Embroidery,Senior Operator,No,3.4,Active,Female
+403,EMP0403,Richard Torres,Line A,Packing,Assistant Supervisor,No,17.6,Active,Male
+404,EMP0404,Pamela Hill,Line D,Cutting,Team Leader,No,8.4,Active,Female
+405,EMP0405,Jennifer Sanchez,Line C,Quality Control,Machine Operator,No,18.5,On Leave,Female
+406,EMP0406,Kevin Patel,Line C,Packing,Quality Inspector,No,17.2,Active,Male
+407,EMP0407,Thomas Martin,Line D,Ironing,Quality Inspector,No,12.3,Active,Male
+408,EMP0408,Margaret Sharma,Line D,Washing,Assistant Supervisor,No,16.5,Active,Female
+409,EMP0409,William Martin,Line E,Embroidery,Team Leader,Yes,3.9,On Leave,Male
+410,EMP0410,Michael Thomas,Line A,Washing,Machine Operator,No,14.2,Active,Male
+411,EMP0411,Angela Sanchez,Line A,Cutting,Supervisor,No,10.0,Active,Female
+412,EMP0412,Emma Scott,Line C,Ironing,Team Leader,No,15.1,Active,Female
+413,EMP0413,Patricia Harris,Line A,Finishing,Production Staff,Yes,17.2,Active,Female
+414,EMP0414,Paul Adams,Line D,Cutting,Machine Operator,No,18.3,Active,Male
+415,EMP0415,Mark Taylor,Line E,Packing,Quality Inspector,No,18.0,On Leave,Male
+416,EMP0416,Dorothy Wilson,Line D,Packing,Assistant Supervisor,No,11.9,Active,Female
+417,EMP0417,Brenda Adams,Line E,Packing,Quality Inspector,Yes,9.9,Active,Female
+418,EMP0418,Samantha Lee,Line C,Packing,Quality Inspector,Yes,3.4,Active,Female
+419,EMP0419,Scott Sanchez,Line C,Finishing,Machine Operator,No,20.0,Active,Male
+420,EMP0420,Stephanie Harris,Line A,Quality Control,Helper,Yes,13.9,Active,Female
+421,EMP0421,Christine Thompson,Line E,Packing,Team Leader,Yes,6.2,Active,Female
+422,EMP0422,Janet Singh,Line E,Finishing,Helper,Yes,4.8,Active,Female
+423,EMP0423,Rebecca Kumar,Line C,Ironing,Quality Inspector,No,9.5,Active,Female
+424,EMP0424,Benjamin Nguyen,Line E,Sewing,Floor Manager,Yes,10.3,On Leave,Male
+425,EMP0425,Shirley Martin,Line D,Cutting,Team Leader,Yes,19.9,Active,Female
+426,EMP0426,Karen Lee,Line B,Sewing,Floor Manager,No,12.8,Active,Female
+427,EMP0427,James Lewis,Line C,Quality Control,Team Leader,Yes,10.0,Active,Male
+428,EMP0428,Thomas Flores,Line D,Embroidery,Trainer,No,19.3,Active,Male
+429,EMP0429,Jonathan Gonzalez,Line C,Cutting,Helper,Yes,0.8,Active,Male
+430,EMP0430,Mark Hall,Line C,Packing,Team Leader,Yes,8.0,Active,Male
+431,EMP0431,William Patel,Line A,Packing,Quality Inspector,No,14.7,Active,Male
+432,EMP0432,Sharon Khan,Line B,Ironing,Floor Manager,No,15.1,Active,Female
+433,EMP0433,Patricia Anderson,Line B,Finishing,Supervisor,Yes,12.0,Active,Female
+434,EMP0434,Carolyn Adams,Line A,Embroidery,Quality Inspector,Yes,12.1,Active,Female
+435,EMP0435,Samuel Shah,Line A,Cutting,Senior Operator,No,9.2,Active,Male
+436,EMP0436,Kathleen Hall,Line B,Quality Control,Machine Operator,No,8.7,Active,Female
+437,EMP0437,Helen Hill,Line B,Embroidery,Senior Operator,Yes,6.0,Active,Female
+438,EMP0438,Betty Hill,Line B,Packing,Assistant Supervisor,Yes,7.5,Active,Female
+439,EMP0439,Robert Scott,Line D,Quality Control,Floor Manager,No,5.1,Active,Male
+440,EMP0440,Joseph Shah,Line E,Washing,Team Leader,Yes,15.7,Active,Male
+441,EMP0441,Steven Adams,Line B,Washing,Quality Inspector,No,9.6,Active,Male
+442,EMP0442,Robert Ahmed,Line C,Ironing,Helper,No,14.9,Active,Male
+443,EMP0443,James Ahmed,Line B,Finishing,Helper,No,17.9,Probation,Male
+444,EMP0444,Janet Garcia,Line C,Ironing,Team Leader,Yes,8.3,Probation,Female
+445,EMP0445,Deborah Hall,Line D,Embroidery,Team Leader,Yes,3.1,Active,Female
+446,EMP0446,Richard Clark,Line E,Washing,Production Staff,No,4.0,Active,Male
+447,EMP0447,Helen Johnson,Line B,Washing,Floor Manager,Yes,17.8,Active,Female
+448,EMP0448,Steven Adams,Line C,Cutting,Assistant Supervisor,Yes,19.6,Active,Male
+449,EMP0449,Shirley King,Line E,Sewing,Trainer,Yes,9.9,Active,Female
+450,EMP0450,Karen Shah,Line E,Cutting,Machine Operator,Yes,10.4,Active,Female
+451,EMP0451,Lisa Jones,Line D,Ironing,Supervisor,No,19.4,Active,Female
+452,EMP0452,Stephen Adams,Line D,Embroidery,Supervisor,Yes,9.5,Active,Male
+453,EMP0453,Elizabeth Ahmed,Line D,Washing,Helper,Yes,19.6,Active,Female
+454,EMP0454,Richard Sanchez,Line D,Cutting,Assistant Supervisor,Yes,16.6,Active,Male
+455,EMP0455,Angela Scott,Line B,Washing,Helper,No,16.6,Active,Female
+456,EMP0456,Carol Scott,Line E,Washing,Helper,No,2.7,Active,Female
+457,EMP0457,James Perez,Line C,Packing,Assistant Supervisor,No,14.2,Active,Male
+458,EMP0458,Gary Rodriguez,Line D,Sewing,Quality Inspector,Yes,4.2,On Leave,Male
+459,EMP0459,Margaret Robinson,Line B,Ironing,Senior Operator,No,1.4,Active,Female
+460,EMP0460,Tyler Malik,Line D,Washing,Production Staff,Yes,19.3,Active,Male
+461,EMP0461,Stephen Verma,Line D,Washing,Assistant Supervisor,Yes,14.0,Active,Male
+462,EMP0462,Richard Harris,Line E,Ironing,Assistant Supervisor,No,8.7,Active,Male
+463,EMP0463,Paul Sanchez,Line C,Packing,Floor Manager,Yes,3.2,Active,Male
+464,EMP0464,Rachel Scott,Line C,Quality Control,Supervisor,Yes,12.7,Active,Female
+465,EMP0465,Debra Rodriguez,Line B,Ironing,Senior Operator,No,11.5,Active,Female
+466,EMP0466,Debra Mitchell,Line E,Packing,Trainer,Yes,10.7,Active,Female
+467,EMP0467,Michael Nelson,Line A,Quality Control,Quality Inspector,Yes,19.7,Active,Male
+468,EMP0468,Michael Hall,Line C,Quality Control,Assistant Supervisor,Yes,7.5,Active,Male
+469,EMP0469,Dennis Adams,Line E,Embroidery,Supervisor,No,14.0,Active,Male
+470,EMP0470,Deborah Clark,Line C,Cutting,Machine Operator,No,4.5,On Leave,Female
+471,EMP0471,Sandra Sharma,Line C,Quality Control,Supervisor,No,9.3,Probation,Female
+472,EMP0472,Daniel Lopez,Line E,Sewing,Trainer,Yes,8.9,Active,Male
+473,EMP0473,Christopher Nguyen,Line C,Cutting,Helper,No,14.3,Active,Male
+474,EMP0474,Joshua Hill,Line A,Packing,Floor Manager,No,1.9,Active,Male
+475,EMP0475,Daniel King,Line A,Finishing,Trainer,No,2.3,Active,Male
+476,EMP0476,Raymond Perez,Line C,Ironing,Quality Inspector,Yes,19.0,Active,Male
+477,EMP0477,Brenda Patel,Line A,Sewing,Helper,No,5.2,Active,Female
+478,EMP0478,Robert Baker,Line C,Embroidery,Senior Operator,No,5.5,Active,Male
+479,EMP0479,Eric Patel,Line C,Washing,Floor Manager,Yes,6.3,Active,Male
+480,EMP0480,Angela Garcia,Line A,Finishing,Assistant Supervisor,Yes,12.7,Active,Female
+481,EMP0481,Patrick Ramirez,Line A,Quality Control,Assistant Supervisor,No,13.1,On Leave,Male
+482,EMP0482,John Robinson,Line C,Cutting,Senior Operator,Yes,1.6,Active,Male
+483,EMP0483,Larry Patel,Line B,Packing,Trainer,No,9.3,Active,Male
+484,EMP0484,Patricia Harris,Line A,Cutting,Production Staff,Yes,15.2,Active,Female
+485,EMP0485,Brian Verma,Line E,Sewing,Quality Inspector,No,12.3,Active,Male
+486,EMP0486,Deborah Sanchez,Line A,Washing,Team Leader,Yes,3.2,Active,Female
+487,EMP0487,Samantha Martinez,Line C,Ironing,Machine Operator,Yes,2.9,Active,Female
+488,EMP0488,Anna Scott,Line A,Packing,Supervisor,No,4.6,On Leave,Female
+489,EMP0489,Christopher Lopez,Line B,Packing,Supervisor,Yes,4.0,Active,Male
+490,EMP0490,Jerry Verma,Line E,Washing,Assistant Supervisor,Yes,6.2,Active,Male
+491,EMP0491,Matthew Campbell,Line E,Washing,Helper,No,3.0,Active,Male
+492,EMP0492,Andrew Flores,Line A,Quality Control,Helper,No,9.3,Active,Male
+493,EMP0493,Rachel Nguyen,Line B,Ironing,Helper,No,3.8,Active,Female
+494,EMP0494,Alexander Mitchell,Line D,Packing,Helper,Yes,13.8,Active,Male
+495,EMP0495,Cynthia Lewis,Line C,Packing,Floor Manager,Yes,3.9,Active,Female
+496,EMP0496,Sarah Malik,Line E,Quality Control,Quality Inspector,Yes,14.7,On Leave,Female
+497,EMP0497,Justin Nguyen,Line D,Quality Control,Machine Operator,No,11.1,Probation,Male
+498,EMP0498,Katherine Roberts,Line B,Ironing,Trainer,Yes,17.9,Active,Female
+499,EMP0499,Sarah Robinson,Line E,Sewing,Trainer,No,10.3,Active,Female
+500,EMP0500,Jerry Allen,Line B,Washing,Team Leader,Yes,11.5,Active,Male
+501,EMP0501,Dennis Campbell,Line D,Ironing,Machine Operator,Yes,15.3,Active,Male
+502,EMP0502,Melissa Anderson,Line A,Quality Control,Assistant Supervisor,No,8.1,On Leave,Female
+503,EMP0503,Robert Adams,Line C,Sewing,Assistant Supervisor,No,16.8,Active,Male
+504,EMP0504,Timothy Adams,Line D,Ironing,Production Staff,Yes,10.6,Active,Male
+505,EMP0505,Eric Sanchez,Line C,Ironing,Floor Manager,No,17.8,Active,Male
+506,EMP0506,Jeffrey Hernandez,Line B,Sewing,Assistant Supervisor,No,4.6,Active,Male
+507,EMP0507,Nicole Rivera,Line A,Quality Control,Trainer,No,14.5,Active,Female
+508,EMP0508,Kathleen Wilson,Line E,Finishing,Trainer,Yes,5.3,Active,Female
+509,EMP0509,Thomas Green,Line E,Cutting,Production Staff,Yes,1.6,Active,Male
+510,EMP0510,Eric Sanchez,Line E,Cutting,Quality Inspector,Yes,4.7,Active,Male
+511,EMP0511,Kathleen Hernandez,Line B,Embroidery,Production Staff,Yes,16.0,Active,Female
+512,EMP0512,Brandon Nelson,Line E,Packing,Team Leader,No,18.5,Active,Male
+513,EMP0513,Mark Harris,Line D,Finishing,Senior Operator,Yes,4.4,On Leave,Male
+514,EMP0514,Karen Hill,Line A,Finishing,Floor Manager,Yes,17.6,Active,Female
+515,EMP0515,David Walker,Line B,Cutting,Trainer,No,7.7,Active,Male
+516,EMP0516,Sandra Singh,Line D,Embroidery,Helper,Yes,8.8,Active,Female
+517,EMP0517,David Jackson,Line E,Embroidery,Quality Inspector,Yes,0.6,Active,Male
+518,EMP0518,Larry King,Line A,Cutting,Trainer,Yes,13.9,Active,Male
+519,EMP0519,Susan Martinez,Line D,Packing,Quality Inspector,No,11.5,Active,Female
+520,EMP0520,Maria Wilson,Line D,Washing,Team Leader,No,11.4,Active,Female
+521,EMP0521,Pamela Thompson,Line D,Finishing,Senior Operator,Yes,9.2,Active,Female
+522,EMP0522,Richard Wilson,Line E,Embroidery,Helper,Yes,3.6,Probation,Male
+523,EMP0523,David Patel,Line B,Washing,Production Staff,No,2.2,Active,Male
+524,EMP0524,Elizabeth Hill,Line A,Embroidery,Trainer,No,14.4,Active,Female
+525,EMP0525,Benjamin Young,Line D,Cutting,Supervisor,No,4.3,Active,Male
+526,EMP0526,Brandon Hernandez,Line A,Ironing,Supervisor,Yes,19.5,Active,Male
+527,EMP0527,Heather Sanchez,Line C,Embroidery,Trainer,Yes,10.6,Active,Female
+528,EMP0528,David Scott,Line C,Ironing,Helper,No,4.9,Probation,Male
+529,EMP0529,Stephanie Torres,Line A,Packing,Team Leader,No,10.4,Active,Female
+530,EMP0530,Carol Davis,Line E,Packing,Assistant Supervisor,No,14.0,Probation,Female
+531,EMP0531,Heather Thomas,Line C,Washing,Floor Manager,Yes,9.9,Active,Female
+532,EMP0532,Samantha Kumar,Line B,Quality Control,Helper,No,19.1,Active,Female
+533,EMP0533,Frank Shah,Line C,Quality Control,Quality Inspector,Yes,8.3,Active,Male
+534,EMP0534,Barbara Scott,Line B,Washing,Helper,No,4.8,Active,Female
+535,EMP0535,Dennis Baker,Line B,Washing,Supervisor,Yes,14.8,On Leave,Male
+536,EMP0536,Mark Gonzalez,Line B,Ironing,Team Leader,Yes,2.8,Active,Male
+537,EMP0537,Helen Smith,Line E,Cutting,Floor Manager,No,12.6,Active,Female
+538,EMP0538,Amy Lopez,Line E,Packing,Trainer,Yes,15.1,Active,Female
+539,EMP0539,Kathleen Wright,Line A,Ironing,Trainer,Yes,9.4,Active,Female
+540,EMP0540,Michelle Hall,Line A,Cutting,Supervisor,No,11.8,Active,Female
+541,EMP0541,Nancy Scott,Line C,Quality Control,Quality Inspector,No,19.2,Active,Female
+542,EMP0542,Gary Ramirez,Line B,Embroidery,Helper,No,17.2,Active,Male
+543,EMP0543,Larry Rodriguez,Line E,Quality Control,Senior Operator,No,16.2,Active,Male
+544,EMP0544,Betty Martinez,Line B,Washing,Machine Operator,Yes,8.7,Active,Female
+545,EMP0545,Amy Martin,Line C,Cutting,Trainer,Yes,14.0,Active,Female
+546,EMP0546,Kathleen Shah,Line A,Washing,Helper,No,7.5,Active,Female
+547,EMP0547,Amanda Johnson,Line D,Sewing,Helper,Yes,11.7,Active,Female
+548,EMP0548,Tyler Jackson,Line C,Ironing,Assistant Supervisor,No,15.6,Active,Male
+549,EMP0549,Timothy Flores,Line C,Washing,Team Leader,Yes,13.0,On Leave,Male
+550,EMP0550,Samantha Flores,Line E,Embroidery,Senior Operator,Yes,3.7,Active,Female
+551,EMP0551,Katherine Jackson,Line C,Embroidery,Quality Inspector,No,15.7,On Leave,Female
+552,EMP0552,Rebecca Hernandez,Line B,Cutting,Team Leader,Yes,13.4,On Leave,Female
+553,EMP0553,Anthony Hernandez,Line D,Sewing,Senior Operator,Yes,18.8,Active,Male
+554,EMP0554,John Roberts,Line D,Sewing,Senior Operator,No,12.6,Active,Male
+555,EMP0555,Donna Anderson,Line B,Packing,Floor Manager,Yes,3.1,Active,Female
+556,EMP0556,Robert Nelson,Line C,Ironing,Floor Manager,No,19.5,Active,Male
+557,EMP0557,Brenda Lewis,Line B,Finishing,Production Staff,No,12.8,Active,Female
+558,EMP0558,Shirley Green,Line E,Packing,Helper,No,11.0,Active,Female
+559,EMP0559,Donna White,Line D,Packing,Team Leader,No,0.7,Active,Female
+560,EMP0560,Brian Jackson,Line D,Cutting,Floor Manager,No,6.3,Active,Male
+561,EMP0561,Nicole Anderson,Line A,Ironing,Supervisor,No,17.7,Active,Female
+562,EMP0562,Christopher Rivera,Line D,Embroidery,Supervisor,No,2.0,Active,Male
+563,EMP0563,Emily Adams,Line E,Packing,Trainer,Yes,17.1,Active,Female
+564,EMP0564,Jessica Green,Line D,Washing,Quality Inspector,No,4.2,Active,Female
+565,EMP0565,Jonathan Johnson,Line B,Sewing,Quality Inspector,No,2.9,Active,Male
+566,EMP0566,Mark Garcia,Line B,Cutting,Floor Manager,Yes,7.2,Active,Male
+567,EMP0567,Melissa Robinson,Line A,Ironing,Senior Operator,Yes,1.6,Active,Female
+568,EMP0568,Jonathan Walker,Line B,Quality Control,Quality Inspector,No,16.7,Active,Male
+569,EMP0569,Timothy Roberts,Line D,Quality Control,Machine Operator,Yes,9.5,Active,Male
+570,EMP0570,Jacob Harris,Line C,Ironing,Team Leader,Yes,15.0,Active,Male
+571,EMP0571,Steven Walker,Line C,Quality Control,Helper,Yes,17.3,Active,Male
+572,EMP0572,Donald Green,Line D,Ironing,Machine Operator,Yes,16.0,Active,Male
+573,EMP0573,Ashley Smith,Line A,Washing,Production Staff,Yes,7.7,Active,Female
+574,EMP0574,Gary Garcia,Line E,Ironing,Machine Operator,Yes,7.4,Active,Male
+575,EMP0575,Thomas Young,Line B,Ironing,Assistant Supervisor,No,16.2,Active,Male
+576,EMP0576,John Hall,Line D,Ironing,Team Leader,No,18.0,Active,Male
+577,EMP0577,Brenda Jackson,Line E,Washing,Supervisor,Yes,11.1,Active,Female
+578,EMP0578,Kimberly Ali,Line E,Finishing,Senior Operator,Yes,9.3,Active,Female
+579,EMP0579,Cynthia Smith,Line E,Embroidery,Team Leader,Yes,12.6,Active,Female
+580,EMP0580,Joshua Campbell,Line A,Embroidery,Supervisor,No,15.4,Active,Male
+581,EMP0581,Michelle Clark,Line C,Sewing,Senior Operator,Yes,1.4,On Leave,Female
+582,EMP0582,Robert Gonzalez,Line A,Washing,Supervisor,Yes,1.1,Active,Male
+583,EMP0583,Christine Young,Line E,Packing,Machine Operator,No,4.8,Active,Female
+584,EMP0584,Anthony Adams,Line D,Sewing,Floor Manager,Yes,7.5,Active,Male
+585,EMP0585,Melissa Kumar,Line A,Packing,Assistant Supervisor,Yes,14.8,Active,Female
+586,EMP0586,Anthony King,Line A,Sewing,Supervisor,No,4.2,Active,Male
+587,EMP0587,Larry Green,Line B,Embroidery,Senior Operator,No,13.7,Active,Male
+588,EMP0588,Susan Hernandez,Line B,Embroidery,Assistant Supervisor,No,13.3,Active,Female
+589,EMP0589,Amanda Malik,Line C,Ironing,Helper,No,15.4,Active,Female
+590,EMP0590,Nicole Thomas,Line E,Quality Control,Trainer,No,7.5,Active,Female
+591,EMP0591,Mary Campbell,Line A,Packing,Production Staff,Yes,10.6,Probation,Female
+592,EMP0592,Mary Martin,Line B,Quality Control,Helper,Yes,15.5,On Leave,Female
+593,EMP0593,Brenda Allen,Line E,Finishing,Senior Operator,Yes,9.5,Active,Female
+594,EMP0594,Melissa Khan,Line E,Quality Control,Supervisor,No,16.3,Active,Female
+595,EMP0595,Pamela Sharma,Line B,Sewing,Helper,No,3.9,Active,Female
+596,EMP0596,Scott Adams,Line C,Cutting,Production Staff,No,2.0,Active,Male
+597,EMP0597,Amanda Khan,Line D,Embroidery,Senior Operator,Yes,15.1,Active,Female
+598,EMP0598,Benjamin Roberts,Line D,Cutting,Quality Inspector,Yes,6.7,Active,Male
+599,EMP0599,Angela Hall,Line B,Finishing,Machine Operator,No,19.4,Active,Female
+600,EMP0600,Mark Ramirez,Line C,Embroidery,Team Leader,Yes,7.1,Active,Male
+601,EMP0601,Stephen Sanchez,Line C,Sewing,Trainer,No,15.6,Active,Male
+602,EMP0602,Jacob Scott,Line B,Washing,Trainer,Yes,11.4,Probation,Male
+603,EMP0603,Donald Jones,Line C,Embroidery,Helper,Yes,2.7,Active,Male
+604,EMP0604,Amanda Gonzalez,Line C,Ironing,Production Staff,Yes,15.5,Active,Female
+605,EMP0605,Helen Patel,Line D,Finishing,Floor Manager,Yes,18.5,Active,Female
+606,EMP0606,Karen Carter,Line A,Sewing,Machine Operator,Yes,19.0,On Leave,Female
+607,EMP0607,Mary Perez,Line A,Packing,Floor Manager,No,0.9,Active,Female
+608,EMP0608,Anthony Wright,Line E,Packing,Assistant Supervisor,No,12.6,Probation,Male
+609,EMP0609,Timothy Nguyen,Line E,Cutting,Quality Inspector,Yes,1.7,Active,Male
+610,EMP0610,Linda Robinson,Line A,Sewing,Trainer,No,13.4,On Leave,Female
+611,EMP0611,Susan Johnson,Line C,Embroidery,Supervisor,No,10.4,Active,Female
+612,EMP0612,Amy Ali,Line E,Sewing,Team Leader,Yes,10.3,Active,Female
+613,EMP0613,Robert Thomas,Line E,Packing,Helper,No,8.2,Active,Male
+614,EMP0614,Debra Thompson,Line C,Packing,Supervisor,No,16.3,Active,Female
+615,EMP0615,Patricia Scott,Line C,Quality Control,Team Leader,No,18.0,Active,Female
+616,EMP0616,Jack Harris,Line E,Quality Control,Trainer,Yes,11.7,Active,Male
+617,EMP0617,Nicole Perez,Line D,Finishing,Supervisor,Yes,11.8,Active,Female
+618,EMP0618,Thomas Martin,Line E,Finishing,Trainer,Yes,13.3,Active,Male
+619,EMP0619,Joshua Jones,Line E,Sewing,Team Leader,No,16.9,Active,Male
+620,EMP0620,Jerry Lee,Line D,Embroidery,Quality Inspector,No,15.0,Active,Male
+621,EMP0621,Karen Roberts,Line B,Sewing,Team Leader,Yes,1.0,Probation,Female
+622,EMP0622,Nicole Torres,Line E,Quality Control,Production Staff,Yes,5.0,Active,Female
+623,EMP0623,Frank Roberts,Line D,Finishing,Assistant Supervisor,No,14.4,Active,Male
+624,EMP0624,Amy Walker,Line B,Finishing,Supervisor,Yes,1.1,Active,Female
+625,EMP0625,Paul Clark,Line B,Quality Control,Supervisor,Yes,4.0,Probation,Male
+626,EMP0626,Helen Young,Line C,Washing,Supervisor,No,8.4,Active,Female
+627,EMP0627,Janet Lee,Line D,Cutting,Assistant Supervisor,Yes,9.3,Active,Female
+628,EMP0628,Donald King,Line E,Embroidery,Machine Operator,No,10.6,Active,Male
+629,EMP0629,Matthew Jackson,Line D,Embroidery,Quality Inspector,No,9.5,Active,Male
+630,EMP0630,Frank King,Line B,Washing,Floor Manager,Yes,14.6,Active,Male
+631,EMP0631,Ronald Clark,Line C,Washing,Machine Operator,Yes,9.3,On Leave,Male
+632,EMP0632,Ryan Garcia,Line C,Ironing,Team Leader,Yes,2.3,Active,Male
+633,EMP0633,Elizabeth King,Line D,Finishing,Trainer,No,1.4,Active,Female
+634,EMP0634,Pamela Ali,Line B,Finishing,Team Leader,Yes,15.5,Active,Female
+635,EMP0635,Donna Campbell,Line D,Packing,Team Leader,Yes,18.0,Probation,Female
+636,EMP0636,Brandon Carter,Line C,Cutting,Floor Manager,No,17.2,Active,Male
+637,EMP0637,Scott Khan,Line D,Quality Control,Supervisor,No,9.3,Active,Male
+638,EMP0638,Donald Khan,Line E,Packing,Production Staff,Yes,1.5,Active,Male
+639,EMP0639,Jennifer Martinez,Line A,Packing,Helper,Yes,1.5,Active,Female
+640,EMP0640,Christopher Baker,Line C,Finishing,Floor Manager,No,18.7,Active,Male
+641,EMP0641,Michelle White,Line D,Sewing,Trainer,Yes,6.2,Active,Female
+642,EMP0642,Carol King,Line D,Quality Control,Supervisor,Yes,2.6,Active,Female
+643,EMP0643,Jacob Campbell,Line E,Packing,Trainer,No,5.6,Active,Male
+644,EMP0644,Sarah Flores,Line E,Washing,Assistant Supervisor,No,10.1,Active,Female
+645,EMP0645,Alexander Jackson,Line B,Cutting,Senior Operator,Yes,9.6,Active,Male
+646,EMP0646,Brandon Clark,Line D,Cutting,Helper,No,11.4,Active,Male
+647,EMP0647,Benjamin Gonzalez,Line C,Packing,Senior Operator,No,6.4,Active,Male
+648,EMP0648,Joseph Baker,Line C,Ironing,Trainer,Yes,16.7,Active,Male
+649,EMP0649,Debra Walker,Line D,Cutting,Team Leader,No,3.5,Active,Female
+650,EMP0650,Cynthia Kumar,Line D,Cutting,Assistant Supervisor,No,11.5,Active,Female
+651,EMP0651,Anthony Torres,Line C,Ironing,Senior Operator,Yes,6.0,Active,Male
+652,EMP0652,Samantha Wright,Line B,Embroidery,Team Leader,Yes,17.4,Active,Female
+653,EMP0653,Carolyn Williams,Line C,Embroidery,Senior Operator,No,17.6,Active,Female
+654,EMP0654,Margaret King,Line C,Finishing,Senior Operator,No,15.8,Active,Female
+655,EMP0655,Jeffrey Allen,Line A,Washing,Assistant Supervisor,Yes,4.2,On Leave,Male
+656,EMP0656,Heather Lee,Line B,Sewing,Assistant Supervisor,Yes,4.5,Active,Female
+657,EMP0657,Carolyn Ali,Line E,Sewing,Machine Operator,No,18.7,Active,Female
+658,EMP0658,Kevin Robinson,Line A,Sewing,Assistant Supervisor,No,0.9,Active,Male
+659,EMP0659,Joshua Gonzalez,Line B,Packing,Quality Inspector,No,15.6,Active,Male
+660,EMP0660,Karen Hernandez,Line C,Sewing,Machine Operator,Yes,4.5,Active,Female
+661,EMP0661,Kimberly Martinez,Line C,Quality Control,Team Leader,Yes,6.6,On Leave,Female
+662,EMP0662,Linda Rodriguez,Line A,Washing,Machine Operator,Yes,8.0,Active,Female
+663,EMP0663,Nancy Rivera,Line E,Washing,Production Staff,No,6.6,Active,Female
+664,EMP0664,Jerry Carter,Line D,Finishing,Senior Operator,No,2.4,Active,Male
+665,EMP0665,Kathleen Anderson,Line B,Finishing,Production Staff,No,18.3,Active,Female
+666,EMP0666,Michelle Robinson,Line D,Cutting,Senior Operator,No,2.7,Active,Female
+667,EMP0667,Andrew Roberts,Line C,Finishing,Assistant Supervisor,Yes,8.4,Active,Male
+668,EMP0668,Joshua Scott,Line A,Packing,Assistant Supervisor,No,8.3,Active,Male
+669,EMP0669,Stephen Hernandez,Line D,Embroidery,Senior Operator,No,4.6,Active,Male
+670,EMP0670,Sharon Torres,Line C,Quality Control,Team Leader,Yes,14.9,Active,Female
+671,EMP0671,Jessica Nguyen,Line E,Washing,Helper,Yes,16.5,Active,Female
+672,EMP0672,Barbara Hill,Line A,Embroidery,Helper,No,13.1,Active,Female
+673,EMP0673,Thomas Khan,Line E,Cutting,Team Leader,Yes,9.3,Active,Male
+674,EMP0674,Betty Wilson,Line C,Packing,Production Staff,No,18.4,On Leave,Female
+675,EMP0675,Elizabeth Nguyen,Line A,Embroidery,Team Leader,No,1.7,On Leave,Female
+676,EMP0676,James Rivera,Line E,Ironing,Senior Operator,No,17.4,Active,Male
+677,EMP0677,Samantha Lee,Line D,Embroidery,Trainer,No,11.1,Active,Female
+678,EMP0678,Sarah Gonzalez,Line E,Embroidery,Helper,No,3.5,Probation,Female
+679,EMP0679,Thomas Smith,Line A,Cutting,Team Leader,No,13.3,Probation,Male
+680,EMP0680,David Rodriguez,Line D,Washing,Production Staff,No,12.7,Active,Male
+681,EMP0681,Brenda Patel,Line D,Embroidery,Helper,Yes,4.1,Active,Female
+682,EMP0682,Janet Thomas,Line E,Packing,Trainer,No,1.2,Active,Female
+683,EMP0683,Carolyn White,Line A,Washing,Senior Operator,Yes,14.7,Active,Female
+684,EMP0684,Cynthia King,Line A,Sewing,Supervisor,No,12.8,Active,Female
+685,EMP0685,Patrick Green,Line E,Packing,Production Staff,Yes,18.1,Active,Male
+686,EMP0686,Jacob Robinson,Line E,Washing,Production Staff,No,8.7,Probation,Male
+687,EMP0687,Emily Hernandez,Line A,Packing,Production Staff,No,1.7,Active,Female
+688,EMP0688,Larry Brown,Line C,Cutting,Quality Inspector,No,2.1,Active,Male
+689,EMP0689,Dorothy Rodriguez,Line E,Packing,Quality Inspector,No,0.8,Active,Female
+690,EMP0690,Justin Mitchell,Line B,Washing,Helper,Yes,5.6,Active,Male
+691,EMP0691,Nancy Singh,Line E,Cutting,Helper,Yes,19.4,Active,Female
+692,EMP0692,Gary Carter,Line D,Embroidery,Supervisor,No,14.7,Active,Male
+693,EMP0693,Linda Adams,Line C,Sewing,Machine Operator,Yes,9.5,Active,Female
+694,EMP0694,Catherine Carter,Line E,Quality Control,Trainer,No,9.8,Active,Female
+695,EMP0695,Mary Jackson,Line D,Embroidery,Helper,Yes,2.4,Active,Female
+696,EMP0696,Sharon Flores,Line C,Ironing,Quality Inspector,No,16.1,Active,Female
+697,EMP0697,Cynthia Roberts,Line B,Quality Control,Assistant Supervisor,No,13.7,Probation,Female
+698,EMP0698,Brenda Smith,Line A,Sewing,Machine Operator,No,2.4,Active,Female
+699,EMP0699,Amanda Anderson,Line C,Packing,Supervisor,Yes,1.0,Active,Female
+700,EMP0700,Scott Green,Line A,Sewing,Senior Operator,Yes,7.8,Active,Male
+701,EMP0701,Joseph Hall,Line B,Packing,Quality Inspector,No,13.4,Active,Male
+702,EMP0702,Kimberly Roberts,Line D,Ironing,Quality Inspector,Yes,15.7,Active,Female
+703,EMP0703,Timothy Harris,Line C,Cutting,Quality Inspector,No,4.0,Active,Male
+704,EMP0704,Brandon Sanchez,Line B,Washing,Senior Operator,Yes,11.0,Active,Male
+705,EMP0705,Jeffrey Rivera,Line C,Sewing,Machine Operator,Yes,1.9,Active,Male
+706,EMP0706,Patricia Malik,Line D,Finishing,Machine Operator,Yes,13.5,Active,Female
+707,EMP0707,Stephanie Torres,Line A,Washing,Floor Manager,No,8.4,Active,Female
+708,EMP0708,Jonathan Anderson,Line A,Embroidery,Floor Manager,Yes,11.6,On Leave,Male
+709,EMP0709,Carol Baker,Line C,Embroidery,Machine Operator,Yes,7.6,On Leave,Female
+710,EMP0710,Elizabeth Shah,Line D,Packing,Supervisor,Yes,11.3,Probation,Female
+711,EMP0711,Kenneth Hall,Line D,Sewing,Helper,No,2.2,Active,Male
+712,EMP0712,Thomas Williams,Line B,Cutting,Production Staff,Yes,10.0,Active,Male
+713,EMP0713,Amy Wright,Line D,Cutting,Machine Operator,No,1.6,Active,Female
+714,EMP0714,Ronald Davis,Line B,Washing,Assistant Supervisor,Yes,15.0,Active,Male
+715,EMP0715,Robert Mitchell,Line B,Washing,Machine Operator,No,18.2,Active,Male
+716,EMP0716,Frank Adams,Line B,Cutting,Team Leader,Yes,18.1,Active,Male
+717,EMP0717,Ryan Flores,Line B,Sewing,Senior Operator,Yes,10.2,Active,Male
+718,EMP0718,William Singh,Line B,Embroidery,Helper,No,6.8,Probation,Male
+719,EMP0719,Joshua Shah,Line B,Cutting,Production Staff,Yes,7.0,Active,Male
+720,EMP0720,Jerry Clark,Line B,Ironing,Assistant Supervisor,Yes,9.1,On Leave,Male
+721,EMP0721,Thomas Miller,Line E,Embroidery,Team Leader,Yes,17.7,Active,Male
+722,EMP0722,Daniel Verma,Line A,Packing,Trainer,No,14.0,Active,Male
+723,EMP0723,Shirley Lewis,Line D,Quality Control,Team Leader,Yes,12.1,Active,Female
+724,EMP0724,Benjamin Patel,Line C,Ironing,Trainer,Yes,11.4,Active,Male
+725,EMP0725,Brandon White,Line E,Quality Control,Floor Manager,Yes,5.9,Active,Male
+726,EMP0726,Patrick Ahmed,Line D,Washing,Team Leader,Yes,13.6,Active,Male
+727,EMP0727,Emily Wilson,Line D,Packing,Helper,No,1.3,Active,Female
+728,EMP0728,Christopher Kumar,Line A,Washing,Assistant Supervisor,Yes,1.9,Active,Male
+729,EMP0729,Emma Nguyen,Line C,Embroidery,Supervisor,No,5.0,Active,Female
+730,EMP0730,Richard Thomas,Line D,Quality Control,Trainer,Yes,1.9,Active,Male
+731,EMP0731,Jason Martinez,Line B,Washing,Team Leader,No,7.8,Active,Male
+732,EMP0732,Benjamin Thompson,Line C,Quality Control,Helper,Yes,1.1,Active,Male
+733,EMP0733,Sarah Davis,Line D,Washing,Trainer,Yes,15.3,Active,Female
+734,EMP0734,Nicole Hernandez,Line E,Finishing,Production Staff,Yes,2.2,On Leave,Female
+735,EMP0735,Margaret Nguyen,Line D,Washing,Quality Inspector,Yes,14.7,Active,Female
+736,EMP0736,Donald Lee,Line D,Quality Control,Production Staff,Yes,18.3,On Leave,Male
+737,EMP0737,Jennifer Williams,Line D,Cutting,Trainer,No,9.8,Active,Female
+738,EMP0738,Jeffrey Young,Line B,Sewing,Assistant Supervisor,Yes,14.0,Active,Male
+739,EMP0739,Thomas Thompson,Line C,Quality Control,Senior Operator,Yes,9.9,Active,Male
+740,EMP0740,Pamela Mitchell,Line E,Cutting,Floor Manager,No,15.6,On Leave,Female
+741,EMP0741,Nancy Kumar,Line C,Washing,Machine Operator,Yes,8.0,Active,Female
+742,EMP0742,Andrew Ramirez,Line C,Quality Control,Senior Operator,No,14.8,Active,Male
+743,EMP0743,Linda Davis,Line D,Ironing,Floor Manager,Yes,7.6,Active,Female
+744,EMP0744,Stephen Rivera,Line B,Finishing,Helper,Yes,11.0,Active,Male
+745,EMP0745,Jerry Mitchell,Line B,Ironing,Helper,No,10.3,Active,Male
+746,EMP0746,William White,Line C,Washing,Floor Manager,Yes,9.7,Active,Male
+747,EMP0747,Laura Flores,Line C,Sewing,Supervisor,No,2.2,Active,Female
+748,EMP0748,Andrew Jones,Line A,Finishing,Quality Inspector,Yes,14.1,Active,Male
+749,EMP0749,Eric Green,Line A,Packing,Trainer,Yes,9.7,Active,Male
+750,EMP0750,Andrew Gonzalez,Line A,Cutting,Supervisor,No,8.5,Active,Male
+751,EMP0751,Amy Nguyen,Line E,Washing,Floor Manager,No,11.6,On Leave,Female
+752,EMP0752,Lisa Kumar,Line C,Quality Control,Floor Manager,No,19.4,Active,Female
+753,EMP0753,Charles Thompson,Line C,Washing,Team Leader,Yes,14.4,Active,Male
+754,EMP0754,Alexander Hall,Line B,Finishing,Supervisor,Yes,1.3,Active,Male
+755,EMP0755,Jeffrey Taylor,Line C,Finishing,Supervisor,Yes,13.5,Probation,Male
+756,EMP0756,George Lewis,Line E,Finishing,Assistant Supervisor,No,2.9,Active,Male
+757,EMP0757,Heather Martinez,Line D,Ironing,Team Leader,Yes,19.4,Active,Female
+758,EMP0758,Katherine Rivera,Line C,Washing,Quality Inspector,Yes,16.1,Active,Female
+759,EMP0759,Carol Hall,Line A,Washing,Machine Operator,Yes,13.7,Active,Female
+760,EMP0760,Ronald Flores,Line B,Washing,Helper,Yes,6.9,Active,Male
+761,EMP0761,Justin King,Line B,Packing,Supervisor,Yes,2.1,Active,Male
+762,EMP0762,Nicholas Sanchez,Line B,Washing,Helper,Yes,18.2,Active,Male
+763,EMP0763,Alexander Ahmed,Line D,Ironing,Trainer,No,0.7,Active,Male
+764,EMP0764,Laura Ali,Line E,Sewing,Supervisor,No,15.0,Active,Female
+765,EMP0765,Emily Hernandez,Line D,Embroidery,Team Leader,Yes,3.3,Active,Female
+766,EMP0766,Barbara Verma,Line E,Embroidery,Senior Operator,Yes,8.5,On Leave,Female
+767,EMP0767,Nancy Scott,Line D,Finishing,Supervisor,Yes,16.7,Active,Female
+768,EMP0768,Jennifer Patel,Line C,Packing,Floor Manager,No,4.9,Active,Female
+769,EMP0769,Steven Martin,Line D,Sewing,Quality Inspector,No,4.0,On Leave,Male
+770,EMP0770,John Davis,Line C,Washing,Senior Operator,No,11.8,Active,Male
+771,EMP0771,Samantha Baker,Line D,Sewing,Helper,Yes,17.0,Active,Female
+772,EMP0772,Charles Lee,Line D,Finishing,Helper,Yes,1.5,Active,Male
+773,EMP0773,Linda Jackson,Line C,Sewing,Assistant Supervisor,Yes,15.4,Active,Female
+774,EMP0774,Scott Carter,Line B,Ironing,Helper,No,5.8,Active,Male
+775,EMP0775,Susan Wright,Line E,Ironing,Team Leader,Yes,3.2,Active,Female
+776,EMP0776,Rebecca Perez,Line B,Sewing,Supervisor,Yes,10.3,Active,Female
+777,EMP0777,Edward Robinson,Line A,Sewing,Team Leader,Yes,9.9,Active,Male
+778,EMP0778,Sarah Patel,Line D,Ironing,Team Leader,No,1.1,Active,Female
+779,EMP0779,Thomas Ahmed,Line B,Quality Control,Quality Inspector,Yes,4.6,Probation,Male
+780,EMP0780,Rachel Carter,Line A,Sewing,Machine Operator,No,15.3,Active,Female
+781,EMP0781,Robert Kumar,Line E,Cutting,Floor Manager,Yes,18.2,Active,Male
+782,EMP0782,Christine Smith,Line A,Sewing,Production Staff,Yes,12.0,Active,Female
+783,EMP0783,Patricia Garcia,Line B,Packing,Production Staff,No,7.4,On Leave,Female
+784,EMP0784,Nicholas Torres,Line A,Sewing,Production Staff,Yes,10.8,Active,Male
+785,EMP0785,Lisa Malik,Line E,Cutting,Senior Operator,Yes,18.4,On Leave,Female
+786,EMP0786,Melissa Hall,Line E,Finishing,Floor Manager,Yes,4.0,Active,Female
+787,EMP0787,Sharon Wilson,Line E,Quality Control,Trainer,Yes,15.3,Active,Female
+788,EMP0788,Jessica King,Line B,Washing,Helper,No,11.4,Active,Female
+789,EMP0789,Amy Davis,Line D,Packing,Floor Manager,No,13.9,Active,Female
+790,EMP0790,Stephen Clark,Line C,Embroidery,Supervisor,Yes,17.9,Active,Male
+791,EMP0791,Nancy Smith,Line D,Sewing,Trainer,No,10.7,Active,Female
+792,EMP0792,Charles Sanchez,Line D,Sewing,Team Leader,Yes,7.6,Active,Male
+793,EMP0793,Scott Ahmed,Line D,Sewing,Supervisor,No,14.6,Active,Male
+794,EMP0794,Maria Kumar,Line D,Ironing,Floor Manager,No,19.8,Active,Female
+795,EMP0795,Tyler Robinson,Line A,Sewing,Quality Inspector,No,10.2,Active,Male
+796,EMP0796,John Miller,Line A,Sewing,Floor Manager,Yes,19.5,Active,Male
+797,EMP0797,Karen Martin,Line E,Sewing,Senior Operator,No,16.0,Active,Female
+798,EMP0798,Amy Allen,Line C,Ironing,Assistant Supervisor,Yes,19.1,Active,Female
+799,EMP0799,Jessica Harris,Line D,Ironing,Trainer,No,9.5,Active,Female
+800,EMP0800,Carolyn Hernandez,Line D,Embroidery,Team Leader,No,14.5,Active,Female
+801,EMP0801,Larry Baker,Line D,Washing,Floor Manager,Yes,10.4,Active,Male
+802,EMP0802,Emma Harris,Line E,Ironing,Quality Inspector,No,1.7,Active,Female
+803,EMP0803,George Thompson,Line E,Cutting,Helper,No,2.4,Active,Male
+804,EMP0804,Rebecca Thompson,Line A,Quality Control,Supervisor,Yes,13.1,Active,Female
+805,EMP0805,Kenneth Davis,Line C,Finishing,Machine Operator,No,1.2,Active,Male
+806,EMP0806,Pamela Allen,Line D,Packing,Machine Operator,No,12.0,Probation,Female
+807,EMP0807,Pamela Harris,Line C,Sewing,Floor Manager,Yes,14.0,Active,Female
+808,EMP0808,Angela Singh,Line C,Finishing,Production Staff,No,7.6,Active,Female
+809,EMP0809,Samantha Ahmed,Line A,Quality Control,Quality Inspector,No,1.4,Probation,Female
+810,EMP0810,Sandra Flores,Line A,Sewing,Production Staff,No,5.8,Active,Female
+811,EMP0811,Sharon Wilson,Line C,Sewing,Quality Inspector,No,8.9,Active,Female
+812,EMP0812,Edward Sanchez,Line C,Washing,Assistant Supervisor,Yes,17.7,Active,Male
+813,EMP0813,Larry Young,Line B,Washing,Quality Inspector,No,18.7,Active,Male
+814,EMP0814,Eric Gonzalez,Line C,Washing,Team Leader,Yes,3.4,Active,Male
+815,EMP0815,Sharon Clark,Line C,Sewing,Supervisor,No,5.7,Active,Female
+816,EMP0816,Steven Baker,Line E,Quality Control,Trainer,Yes,2.7,Active,Male
+817,EMP0817,Kenneth Robinson,Line D,Embroidery,Trainer,Yes,4.4,Active,Male
+818,EMP0818,Steven Kumar,Line C,Finishing,Machine Operator,No,15.8,Active,Male
+819,EMP0819,Joshua Hill,Line C,Sewing,Trainer,No,13.6,On Leave,Male
+820,EMP0820,Janet Shah,Line B,Quality Control,Senior Operator,Yes,10.7,Active,Female
+821,EMP0821,Amy Khan,Line A,Quality Control,Production Staff,Yes,15.6,Active,Female
+822,EMP0822,Catherine Mitchell,Line B,Embroidery,Supervisor,Yes,2.6,Active,Female
+823,EMP0823,Laura Clark,Line C,Cutting,Floor Manager,No,14.1,Active,Female
+824,EMP0824,Kathleen Baker,Line B,Packing,Team Leader,No,9.8,Active,Female
+825,EMP0825,Patricia Adams,Line E,Cutting,Machine Operator,Yes,5.4,Active,Female
+826,EMP0826,Debra Davis,Line E,Quality Control,Floor Manager,No,0.7,Probation,Female
+827,EMP0827,Donna Garcia,Line B,Packing,Supervisor,Yes,18.4,Active,Female
+828,EMP0828,Jennifer Moore,Line A,Washing,Floor Manager,No,18.6,Active,Female
+829,EMP0829,Susan Patel,Line B,Packing,Assistant Supervisor,Yes,7.4,Active,Female
+830,EMP0830,Cynthia Hall,Line A,Cutting,Team Leader,No,15.9,Active,Female
+831,EMP0831,Betty Green,Line C,Ironing,Production Staff,Yes,2.7,Active,Female
+832,EMP0832,Scott Baker,Line D,Ironing,Floor Manager,No,17.5,Active,Male
+833,EMP0833,Patrick Nguyen,Line C,Packing,Supervisor,Yes,8.6,Active,Male
+834,EMP0834,Pamela Anderson,Line A,Cutting,Assistant Supervisor,Yes,18.2,Probation,Female
+835,EMP0835,Steven Hall,Line B,Cutting,Trainer,No,12.2,Active,Male
+836,EMP0836,Lisa Torres,Line A,Cutting,Assistant Supervisor,No,15.6,On Leave,Female
+837,EMP0837,Jessica Anderson,Line B,Quality Control,Quality Inspector,No,15.1,Active,Female
+838,EMP0838,Margaret Hill,Line B,Packing,Supervisor,No,4.0,Active,Female
+839,EMP0839,Andrew Taylor,Line B,Washing,Supervisor,No,11.9,Active,Male
+840,EMP0840,James Walker,Line B,Ironing,Trainer,Yes,14.4,Active,Male
+841,EMP0841,Barbara Miller,Line E,Cutting,Machine Operator,No,18.7,Active,Female
+842,EMP0842,Nicole Nelson,Line E,Cutting,Machine Operator,No,10.3,Active,Female
+843,EMP0843,Christine White,Line B,Cutting,Production Staff,Yes,5.6,Active,Female
+844,EMP0844,Cynthia Rodriguez,Line A,Ironing,Assistant Supervisor,No,3.3,Active,Female
+845,EMP0845,Thomas Young,Line C,Ironing,Trainer,No,18.1,Active,Male
+846,EMP0846,Shirley Lee,Line D,Finishing,Helper,No,15.4,Active,Female
+847,EMP0847,Linda Gonzalez,Line B,Cutting,Supervisor,Yes,1.2,Active,Female
+848,EMP0848,Sharon Davis,Line D,Cutting,Floor Manager,No,19.8,Active,Female
+849,EMP0849,Amy Davis,Line B,Sewing,Helper,Yes,4.5,Active,Female
+850,EMP0850,Dennis Allen,Line C,Quality Control,Production Staff,Yes,10.8,Active,Male
+851,EMP0851,Barbara Thomas,Line D,Sewing,Helper,Yes,6.0,Probation,Female
+852,EMP0852,Ronald White,Line E,Sewing,Helper,Yes,1.1,Active,Male
+853,EMP0853,Cynthia Green,Line C,Cutting,Helper,Yes,13.3,Probation,Female
+854,EMP0854,Janet Campbell,Line E,Finishing,Supervisor,Yes,16.1,Active,Female
+855,EMP0855,Dennis Jones,Line E,Embroidery,Senior Operator,No,5.5,Active,Male
+856,EMP0856,Elizabeth Johnson,Line B,Finishing,Trainer,No,6.1,Active,Female
+857,EMP0857,Joseph Martin,Line D,Embroidery,Quality Inspector,Yes,7.5,Active,Male
+858,EMP0858,Angela Gonzalez,Line D,Washing,Trainer,No,5.7,Active,Female
+859,EMP0859,Jerry Ramirez,Line C,Finishing,Trainer,No,2.3,Active,Male
+860,EMP0860,Debra Anderson,Line B,Washing,Assistant Supervisor,Yes,6.2,Active,Female
+861,EMP0861,Donna Martinez,Line B,Packing,Supervisor,No,6.3,Active,Female
+862,EMP0862,Robert Allen,Line A,Embroidery,Trainer,Yes,9.6,Active,Male
+863,EMP0863,Amanda Taylor,Line E,Sewing,Assistant Supervisor,Yes,2.7,Active,Female
+864,EMP0864,Daniel Shah,Line D,Cutting,Senior Operator,No,17.6,Active,Male
+865,EMP0865,Maria Nelson,Line D,Packing,Helper,Yes,4.6,Active,Female
+866,EMP0866,Debra Miller,Line D,Cutting,Machine Operator,No,2.8,Active,Female
+867,EMP0867,Cynthia Hall,Line D,Washing,Quality Inspector,No,14.0,Probation,Female
+868,EMP0868,Donna Garcia,Line B,Finishing,Machine Operator,Yes,2.7,Active,Female
+869,EMP0869,John Wilson,Line D,Finishing,Supervisor,No,16.9,On Leave,Male
+870,EMP0870,David Martin,Line D,Finishing,Floor Manager,No,0.9,Active,Male
+871,EMP0871,Dennis Hall,Line D,Washing,Floor Manager,Yes,17.3,Active,Male
+872,EMP0872,Andrew Torres,Line D,Cutting,Helper,Yes,2.5,Active,Male
+873,EMP0873,Rebecca Ahmed,Line D,Packing,Machine Operator,No,8.3,Active,Female
+874,EMP0874,Sandra Rivera,Line A,Cutting,Trainer,No,11.3,Active,Female
+875,EMP0875,Kathleen Davis,Line D,Ironing,Floor Manager,No,0.9,Active,Female
+876,EMP0876,Jacob Thompson,Line D,Quality Control,Assistant Supervisor,Yes,12.0,Active,Male
+877,EMP0877,Sarah Khan,Line C,Embroidery,Trainer,No,16.0,Active,Female
+878,EMP0878,Brandon Wilson,Line C,Sewing,Floor Manager,Yes,3.9,Active,Male
+879,EMP0879,Susan Kumar,Line D,Washing,Quality Inspector,Yes,4.6,Active,Female
+880,EMP0880,Brian Khan,Line C,Ironing,Team Leader,Yes,16.6,On Leave,Male
+881,EMP0881,William Perez,Line D,Sewing,Production Staff,Yes,2.9,Active,Male
+882,EMP0882,Carol Kumar,Line C,Cutting,Assistant Supervisor,No,18.0,On Leave,Female
+883,EMP0883,Alexander Brown,Line D,Washing,Senior Operator,Yes,15.7,Active,Male
+884,EMP0884,Stephen Williams,Line E,Sewing,Team Leader,Yes,17.5,On Leave,Male
+885,EMP0885,Jack Jackson,Line D,Washing,Senior Operator,Yes,13.1,Active,Male
+886,EMP0886,Joseph Ahmed,Line B,Washing,Trainer,Yes,5.3,Active,Male
+887,EMP0887,Emily Allen,Line B,Sewing,Quality Inspector,No,14.4,Active,Female
+888,EMP0888,Charles Carter,Line E,Embroidery,Supervisor,Yes,16.1,Active,Male
+889,EMP0889,Cynthia Ahmed,Line E,Ironing,Machine Operator,No,3.3,Active,Female
+890,EMP0890,David Perez,Line C,Embroidery,Team Leader,No,1.7,Active,Male
+891,EMP0891,Larry Brown,Line E,Packing,Trainer,No,17.8,Active,Male
+892,EMP0892,Janet Mitchell,Line C,Ironing,Machine Operator,No,18.1,Active,Female
+893,EMP0893,Frank Sanchez,Line D,Quality Control,Assistant Supervisor,No,14.1,On Leave,Male
+894,EMP0894,Heather Gonzalez,Line C,Sewing,Machine Operator,No,8.1,Active,Female
+895,EMP0895,Eric Wright,Line C,Quality Control,Senior Operator,No,10.7,Active,Male
+896,EMP0896,John Johnson,Line E,Packing,Supervisor,No,14.7,Probation,Male
+897,EMP0897,Jack Brown,Line C,Packing,Assistant Supervisor,No,2.9,Active,Male
+898,EMP0898,Jeffrey Martin,Line E,Cutting,Floor Manager,No,19.7,Active,Male
+899,EMP0899,Brian Martin,Line C,Finishing,Trainer,Yes,2.6,Active,Male
+900,EMP0900,Tyler White,Line D,Sewing,Team Leader,No,16.7,Active,Male
+901,EMP0901,Jason Khan,Line B,Washing,Supervisor,No,2.0,Active,Male
+902,EMP0902,Emma Scott,Line E,Embroidery,Quality Inspector,No,12.9,Probation,Female
+903,EMP0903,Janet Clark,Line B,Finishing,Assistant Supervisor,Yes,10.0,Active,Female
+904,EMP0904,Frank Wilson,Line D,Washing,Machine Operator,Yes,18.9,Active,Male
+905,EMP0905,Scott Ahmed,Line D,Sewing,Senior Operator,No,11.6,Active,Male
+906,EMP0906,Joseph White,Line C,Ironing,Quality Inspector,No,10.0,Active,Male
+907,EMP0907,Justin Clark,Line A,Packing,Quality Inspector,Yes,4.1,Active,Male
+908,EMP0908,Joseph Scott,Line C,Sewing,Machine Operator,No,9.9,Active,Male
+909,EMP0909,Carol Kumar,Line D,Washing,Production Staff,Yes,15.4,Active,Female
+910,EMP0910,Maria Lewis,Line D,Finishing,Helper,Yes,16.1,Active,Female
+911,EMP0911,Deborah Anderson,Line D,Ironing,Assistant Supervisor,Yes,19.2,On Leave,Female
+912,EMP0912,Katherine Garcia,Line B,Cutting,Production Staff,No,11.4,Active,Female
+913,EMP0913,Matthew Flores,Line E,Cutting,Production Staff,Yes,15.1,Active,Male
+914,EMP0914,Joseph Nelson,Line E,Finishing,Machine Operator,No,15.8,Active,Male
+915,EMP0915,Elizabeth Singh,Line E,Ironing,Trainer,Yes,10.1,On Leave,Female
+916,EMP0916,Sharon Lopez,Line D,Cutting,Assistant Supervisor,No,7.9,Active,Female
+917,EMP0917,Jonathan Hernandez,Line C,Finishing,Team Leader,No,15.5,Active,Male
+918,EMP0918,Debra Hernandez,Line A,Ironing,Team Leader,Yes,14.4,Active,Female
+919,EMP0919,Joshua Martinez,Line D,Ironing,Quality Inspector,No,18.9,On Leave,Male
+920,EMP0920,Matthew Thomas,Line E,Quality Control,Floor Manager,No,19.0,Active,Male
+921,EMP0921,Cynthia Scott,Line D,Sewing,Floor Manager,Yes,8.4,Active,Female
+922,EMP0922,Paul Scott,Line E,Sewing,Supervisor,Yes,6.4,Active,Male
+923,EMP0923,Benjamin Allen,Line B,Finishing,Helper,Yes,15.7,Active,Male
+924,EMP0924,Brenda Lewis,Line A,Cutting,Floor Manager,No,13.2,Active,Female
+925,EMP0925,Jacob Moore,Line E,Packing,Trainer,No,16.9,Active,Male
+926,EMP0926,Jennifer Hernandez,Line E,Sewing,Quality Inspector,Yes,8.2,Active,Female
+927,EMP0927,Jack Scott,Line C,Embroidery,Supervisor,No,17.7,On Leave,Male
+928,EMP0928,Maria Rivera,Line D,Packing,Supervisor,No,7.2,Active,Female
+929,EMP0929,Patricia Sharma,Line B,Cutting,Production Staff,No,0.6,Active,Female
+930,EMP0930,Edward Scott,Line D,Embroidery,Assistant Supervisor,Yes,15.9,Active,Male
+931,EMP0931,Jonathan Johnson,Line D,Sewing,Helper,No,16.6,Active,Male
+932,EMP0932,Tyler Singh,Line A,Sewing,Floor Manager,No,18.8,Active,Male
+933,EMP0933,Dennis Johnson,Line C,Ironing,Supervisor,Yes,16.4,Active,Male
+934,EMP0934,Mark Young,Line C,Cutting,Quality Inspector,No,18.1,Active,Male
+935,EMP0935,James Gonzalez,Line D,Sewing,Quality Inspector,No,3.8,Active,Male
+936,EMP0936,William Nguyen,Line B,Sewing,Team Leader,No,18.7,On Leave,Male
+937,EMP0937,Betty Ahmed,Line A,Packing,Assistant Supervisor,No,0.5,Active,Female
+938,EMP0938,Joshua Ramirez,Line D,Packing,Senior Operator,No,10.2,Active,Male
+939,EMP0939,Jack Anderson,Line A,Packing,Trainer,No,6.7,Active,Male
+940,EMP0940,Elizabeth Khan,Line E,Cutting,Supervisor,No,19.2,On Leave,Female
+941,EMP0941,Christopher Perez,Line C,Sewing,Senior Operator,Yes,9.9,Active,Male
+942,EMP0942,Dorothy Thomas,Line A,Washing,Supervisor,No,16.7,Active,Female
+943,EMP0943,William Roberts,Line E,Washing,Senior Operator,No,11.8,Active,Male
+944,EMP0944,Robert Harris,Line C,Sewing,Team Leader,Yes,18.4,Active,Male
+945,EMP0945,Helen Green,Line D,Sewing,Senior Operator,Yes,11.4,Active,Female
+946,EMP0946,Stephanie Miller,Line E,Embroidery,Supervisor,Yes,9.3,Active,Female
+947,EMP0947,Helen Flores,Line A,Ironing,Machine Operator,No,10.6,Active,Female
+948,EMP0948,Richard Smith,Line E,Sewing,Production Staff,Yes,18.1,Active,Male
+949,EMP0949,Amanda Clark,Line D,Washing,Team Leader,Yes,3.2,Active,Female
+950,EMP0950,Kenneth Nguyen,Line D,Ironing,Quality Inspector,Yes,3.4,Active,Male
+951,EMP0951,Emily White,Line A,Finishing,Machine Operator,Yes,10.4,Active,Female
+952,EMP0952,Jason Thompson,Line B,Quality Control,Supervisor,Yes,7.2,Active,Male
+953,EMP0953,Nicole Hall,Line C,Ironing,Production Staff,No,8.7,Active,Female
+954,EMP0954,Jennifer Young,Line B,Cutting,Supervisor,Yes,9.6,Active,Female
+955,EMP0955,Catherine Roberts,Line C,Embroidery,Supervisor,No,4.1,Probation,Female
+956,EMP0956,Mary Jones,Line C,Cutting,Assistant Supervisor,Yes,3.3,Active,Female
+957,EMP0957,Jennifer Johnson,Line B,Quality Control,Quality Inspector,Yes,4.8,Active,Female
+958,EMP0958,Kevin Ahmed,Line E,Quality Control,Team Leader,Yes,0.9,Active,Male
+959,EMP0959,John Shah,Line B,Embroidery,Senior Operator,No,18.8,Active,Male
+960,EMP0960,George Singh,Line C,Finishing,Assistant Supervisor,No,17.6,Active,Male
+961,EMP0961,Thomas Kumar,Line B,Quality Control,Assistant Supervisor,No,14.0,Active,Male
+962,EMP0962,Samantha Thomas,Line A,Quality Control,Assistant Supervisor,No,15.9,Active,Female
+963,EMP0963,Benjamin Kumar,Line C,Finishing,Assistant Supervisor,No,4.6,Active,Male
+964,EMP0964,Christine Flores,Line A,Finishing,Assistant Supervisor,No,15.2,Active,Female
+965,EMP0965,Amy King,Line D,Finishing,Helper,No,10.7,Active,Female
+966,EMP0966,Kathleen Moore,Line E,Embroidery,Production Staff,Yes,4.5,On Leave,Female
+967,EMP0967,Ashley Sanchez,Line B,Packing,Trainer,No,11.6,On Leave,Female
+968,EMP0968,Dorothy Scott,Line A,Finishing,Senior Operator,No,9.2,Active,Female
+969,EMP0969,Ryan Allen,Line E,Ironing,Trainer,No,9.6,Active,Male
+970,EMP0970,Michelle Moore,Line D,Cutting,Team Leader,No,5.1,Active,Female
+971,EMP0971,Elizabeth Jackson,Line E,Sewing,Quality Inspector,Yes,2.4,Active,Female
+972,EMP0972,Jonathan Gonzalez,Line C,Quality Control,Helper,No,6.4,Active,Male
+973,EMP0973,Betty Rivera,Line E,Finishing,Assistant Supervisor,No,0.7,Active,Female
+974,EMP0974,Stephanie Sanchez,Line E,Cutting,Floor Manager,Yes,17.4,Active,Female
+975,EMP0975,Jacob Anderson,Line E,Washing,Floor Manager,No,15.9,Active,Male
+976,EMP0976,Jason Roberts,Line D,Quality Control,Floor Manager,No,17.1,Active,Male
+977,EMP0977,Larry Ali,Line B,Packing,Machine Operator,No,16.3,Active,Male
+978,EMP0978,Sandra Clark,Line D,Embroidery,Assistant Supervisor,No,6.9,Active,Female
+979,EMP0979,Thomas Martinez,Line C,Embroidery,Trainer,Yes,19.0,Active,Male
+980,EMP0980,Betty Walker,Line A,Ironing,Production Staff,No,13.0,Active,Female
+981,EMP0981,Richard Baker,Line E,Finishing,Machine Operator,No,1.0,Active,Male
+982,EMP0982,Emily Wilson,Line B,Packing,Assistant Supervisor,Yes,9.4,Active,Female
+983,EMP0983,Christopher Lee,Line D,Embroidery,Team Leader,Yes,3.0,Active,Male
+984,EMP0984,Timothy Malik,Line B,Finishing,Supervisor,No,8.9,Active,Male
+985,EMP0985,Lisa Hill,Line E,Packing,Production Staff,Yes,10.3,Active,Female
+986,EMP0986,Betty Smith,Line B,Washing,Senior Operator,No,12.3,Active,Female
+987,EMP0987,Pamela Khan,Line D,Washing,Floor Manager,Yes,14.9,Active,Female
+988,EMP0988,Amanda Hall,Line C,Embroidery,Production Staff,Yes,8.6,Active,Female
+989,EMP0989,Cynthia Harris,Line B,Sewing,Trainer,Yes,5.2,On Leave,Female
+990,EMP0990,Samantha Wright,Line C,Sewing,Supervisor,No,8.5,Active,Female
+991,EMP0991,George Jones,Line A,Ironing,Trainer,No,3.7,Active,Male
+992,EMP0992,Ryan Johnson,Line A,Washing,Trainer,No,15.0,On Leave,Male
+993,EMP0993,Jennifer Smith,Line C,Sewing,Team Leader,No,13.6,Active,Female
+994,EMP0994,Barbara Garcia,Line E,Quality Control,Floor Manager,Yes,9.7,Active,Female
+995,EMP0995,Christopher Shah,Line A,Sewing,Team Leader,No,2.9,Active,Male
+996,EMP0996,William Nelson,Line A,Packing,Team Leader,No,7.5,Active,Male
+997,EMP0997,Patrick Wright,Line B,Washing,Machine Operator,Yes,8.1,Active,Male
+998,EMP0998,Scott Smith,Line A,Embroidery,Supervisor,Yes,7.8,Active,Male
+999,EMP0999,John Clark,Line A,Cutting,Helper,Yes,13.8,Active,Male
+1000,EMP1000,Raymond Hernandez,Line B,Cutting,Trainer,Yes,16.4,Active,Male

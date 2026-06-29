@@ -10,6 +10,7 @@ const API_BASE_URL = 'http://localhost:8000/';
 // Create an axios instance
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
+  withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -26,6 +27,8 @@ apiClient.interceptors.request.use(
 
     if (!(config.data instanceof FormData)) {
       config.headers['Content-Type'] = 'application/json';
+    } else {
+      delete config.headers['Content-Type'];
     }
 
     return config;
@@ -36,11 +39,7 @@ apiClient.interceptors.request.use(
 // API Endpoints
 const API = {
   login: (data) => apiClient.post('/auth/login/', data),
-  validateLocation: (formData) => apiClient.post('/locations/validate/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data'
-    }
-  }),
+  validateLocation: (formData) => apiClient.post('/locations/validate/', formData),
   logout: (data) => apiClient.post('/auth/logout/', data),
   emailRecovery: (data) => apiClient.post('/auth/password/reset/request/', data),
   forgotPassword: (data) => apiClient.post('/auth/password/reset/confirm/', data),
@@ -62,9 +61,9 @@ const API = {
         forecast_period
       }
     }),
-    getForecastData: () =>
+  getForecastData: () =>
     apiClient.post('/absenteeism/predictions/generate/', {
-      
+
     }),
 
   exportAbsenteeismData: (line, forecast_period, type, email = null) => {
@@ -131,18 +130,10 @@ const API = {
 
     }),
   uploadLoadingPlan: (formData) => {
-    return apiClient.post('/manning-sheet/loading-plans/upload/', formData, {
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      }
-    })
+    return apiClient.post('/manning-sheet/loading-plans/upload/', formData)
   },
   uploadWipData: (formData) => {
-    return apiClient.post('/manning-sheet/wips/upload/', formData, {
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      }
-    })
+    return apiClient.post('/manning-sheet/wips/upload/', formData)
   },
   downloadManningSheet: (line, forecast_period) =>
     apiClient.post('/manning-sheet/manning-sheets/export/', null, {
@@ -279,47 +270,19 @@ const API = {
   markNotificationsRead: (data) =>
     apiClient.post('/manning-sheet/notifications/mark-read/', data),
 
-  uploadStyleOB: (formData) => apiClient.post('/upload/StyleOB/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadStyleOB: (formData) => apiClient.post('/manning-sheet/style-obs/upload/', formData),
 
-  uploadLoadingPlanData: (formData) => apiClient.post('/upload/LoadingPlan/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadLoadingPlanData: (formData) => apiClient.post('/manning-sheet/loading-plans/upload/', formData),
 
-  uploadEMPFact: (formData) => apiClient.post('/upload/EMPFact/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadEMPFact: (formData) => apiClient.post('/manning-sheet/emp-facts/upload/', formData),
 
-  uploadActiveEmployees: (formData) => apiClient.post('/upload/ActiveEmployees/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadActiveEmployees: (formData) => apiClient.post('/manning-sheet/employees/upload/', formData),
 
-  uploadLocalHolidayCalendar: (formData) => apiClient.post('/upload/LocalHolidayCalendar/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadLocalHolidayCalendar: (formData) => apiClient.post('/data/holiday-calendars/upload/', formData),
 
-  uploadAttendanceMaster: (formData) => apiClient.post('/upload/AttendanceMaster/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadAttendanceMaster: (formData) => apiClient.post('/data/attendance/upload/', formData),
 
-  uploadAbsenteeism: (formData) => apiClient.post('/upload/PredictionData/', formData, {
-    headers: {
-      'Content-Type': 'multipart/form-data',
-    }
-  }),
+  uploadAbsenteeism: (formData) => apiClient.post('/absenteeism/upload/', formData),
 
 };
 
