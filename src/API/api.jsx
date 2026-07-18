@@ -39,6 +39,7 @@ apiClient.interceptors.request.use(
 // API Endpoints
 const API = {
   login: (data) => apiClient.post('/auth/login/', data),
+  googleLogin: (data) => apiClient.post('/api/auth/google/', data),
   validateLocation: (formData) => apiClient.post('/locations/validate/', formData),
   logout: (data) => apiClient.post('/auth/logout/', data),
   emailRecovery: (data) => apiClient.post('/auth/password/reset/request/', data),
