@@ -10,6 +10,9 @@ export const axiosInstance = axios.create({
   },
   // Ensure cookies are sent with requests (important for HTTP-only tokens)
   withCredentials: true,
+  // Automatically extract 'csrftoken' cookie and attach to 'X-CSRFToken' header
+  xsrfCookieName: 'csrftoken',
+  xsrfHeaderName: 'X-CSRFToken',
 });
 
 // Request Interceptor: Attach Tokens if necessary
