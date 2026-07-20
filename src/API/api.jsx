@@ -1,16 +1,31 @@
 import axios from 'axios';
 
+// Helper function to get cookies manually
+function getCookie(name) {
+  let cookieValue = null;
+  if (document.cookie && document.cookie !== '') {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+      const cookie = cookies[i].trim();
+      if (cookie.substring(0, name.length + 1) === (name + '=')) {
+        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+        break;
+      }
+    }
+  }
+  return cookieValue;
+}
+
 // Base URL for the API
-// const API_BASE_URL = 'http://laguna.eastus.cloudapp.azure.com:8000'; // API base URL
-// const API_BASE_URL = 'https://yuktiapi.laguna-clothing.com/';
-const API_BASE_URL = 'http://localhost:8000/';
-// const API_BASE_URL = 'http://20.51.253.47:8000/';
-// const API_BASE_URL = 'http://10.81.234.4:8000/'
+// Uses Vite environment variable if available, otherwise falls back to localhost
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/';
 
 // Create an axios instance
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
   withCredentials: true,
+  xsrfCookieName: 'csrftoken',
+  xsrfHeaderName: 'X-CSRFToken',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -21,14 +36,37 @@ apiClient.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('authToken');
 
-    if (token && !config.url.includes('/auth/login/')) {
-      config.headers.Authorization = `Token ${token}`;
+    // Endpoints that should NOT send an Authorization header
+    const noAuthUrls = ['/auth/login/', '/api/auth/google/', '/auth/token/refresh/'];
+    const requiresAuth = !noAuthUrls.some(url => config.url.includes(url));
+
+    if (token && token !== 'undefined' && token !== 'null' && requiresAuth) {
+      if (config.headers && typeof config.headers.set === 'function') {
+        config.headers.set('Authorization', `Bearer ${token}`);
+      } else {
+        config.headers.Authorization = `Bearer ${token}`;
+      }
     }
 
-    if (!(config.data instanceof FormData)) {
-      config.headers['Content-Type'] = 'application/json';
+    // Set Content-Type based on the payload format
+    if (config.data instanceof FormData) {
+      if (config.headers && typeof config.headers.delete === 'function') {
+        config.headers.delete('Content-Type');
+      } else {
+        delete config.headers['Content-Type'];
+      }
     } else {
-      delete config.headers['Content-Type'];
+      if (config.headers && typeof config.headers.set === 'function') {
+        config.headers.set('Content-Type', 'application/json');
+      } else {
+        config.headers['Content-Type'] = 'application/json';
+      }
+    }
+
+    // Manually attach CSRF token since Axios drops it for cross-origin absolute URLs
+    const csrfToken = getCookie('csrftoken');
+    if (csrfToken) {
+      config.headers['X-CSRFToken'] = csrfToken;
     }
 
     return config;
@@ -40,6 +78,7 @@ apiClient.interceptors.request.use(
 const API = {
   login: (data) => apiClient.post('/auth/login/', data),
   googleLogin: (data) => apiClient.post('/api/auth/google/', data),
+  refreshToken: (data) => apiClient.post('/auth/token/refresh/', data),
   validateLocation: (formData) => apiClient.post('/locations/validate/', formData),
   logout: (data) => apiClient.post('/auth/logout/', data),
   emailRecovery: (data) => apiClient.post('/auth/password/reset/request/', data),
@@ -50,11 +89,7 @@ const API = {
   getUserDetails: (userId) => apiClient.get(`/users/${userId}/`),
   updateUser: (userId, data) => apiClient.put(`/users/${userId}/update/`, data),
   deleteUser: (userId) => apiClient.delete(`/users/${userId}/delete/`),
-  uploadHolidayCalendar: (formData) => apiClient.post('/data/holiday-calendars/upload/', formData, {
-    headers: {
-      'Content-Type': undefined
-    }
-  }),
+  uploadHolidayCalendar: (formData) => apiClient.post('/data/holiday-calendars/upload/', formData),
   getAbsenteeismData: (line, forecast_period) =>
     apiClient.get('/absenteeism/predictions/', {
       params: {
@@ -227,7 +262,7 @@ const API = {
       }
     }
 
-    return apiClient.post('manning-sheet/attendance/export/', null, {
+    return apiClient.post('/manning-sheet/attendance/export/', null, {
       params,
       responseType: 'blob',
       headers: {

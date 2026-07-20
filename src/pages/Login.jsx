@@ -265,7 +265,7 @@ const LoginPage = () => {
   }, []);
 
   const handleLoginSuccess = (userData) => {
-    localStorage.setItem('authToken', userData.Authorization);
+    localStorage.setItem('authToken', userData.access_token);
     localStorage.setItem('userType', userData.user_details.user_type);
     localStorage.setItem('userEmail', userData.user_details.email);
 
@@ -322,11 +322,11 @@ const LoginPage = () => {
     onSuccess: async (tokenResponse) => {
       try {
         const response = await API.googleLogin({ access_token: tokenResponse.access_token });
-        if (response.data && response.data.access) {
+        if (response.data && (response.data.access || response.data.access_token)) {
           // Construct the same user data object format expected by handleLoginSuccess
           // dj-rest-auth returns { access: "...", refresh: "...", user: { ... } }
           const userData = {
-            Authorization: response.data.access,
+            access_token: response.data.access || response.data.access_token,
             refresh_token: response.data.refresh || '', // May be in HttpOnly cookie
             user_details: response.data.user
           };
