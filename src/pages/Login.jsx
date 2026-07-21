@@ -305,7 +305,9 @@ const LoginPage = () => {
     } catch (loginError) {
       let errorMessage = 'An error occurred during login. Please try again.';
 
-      if (loginError.response?.status === 401) {
+      if (loginError.response?.status === 429) {
+        errorMessage = loginError.response.data?.detail || 'Too many login attempts. Please try again in a minute.';
+      } else if (loginError.response?.status === 401) {
         errorMessage = 'Invalid email or password.';
       } else if (loginError.response?.status === 404) {
         errorMessage = 'No user found with this email.';
